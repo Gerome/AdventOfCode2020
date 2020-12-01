@@ -1,10 +1,6 @@
-logs
 target
 /.idea
 /.bsp
 /.idea_modules
 /.classpath
-/.project
-/.settings
-/RUNNING_PID
-
+/project
