@@ -5,4 +5,9 @@ object Day1 extends App {
     case _                                      =>
   }
 
+  Inputs.DAY_1.combinations(3).foreach {
+    case one :: two :: three :: Nil if one + two + three == 2020 => println(one * two * three)
+    case _                                                       =>
+  }
+
 }
