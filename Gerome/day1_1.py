@@ -7,4 +7,4 @@ inputs = [1322, 1211, 1427, 1428, 1953, 1220, 1629, 1186, 1354, 1776, 1906, 1849
           1713, 1725, 1955, 1250, 1987, 1724]
 
 sum_pairs = [(input1, input2) for input1, input2 in list(combinations(inputs, 2)) if input1 + input2 == 2020]
-print(sum_pairs)
+print("i've got a pecker")
