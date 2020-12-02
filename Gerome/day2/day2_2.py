@@ -1,5 +1,5 @@
 c=0
-for v in open("a.txt", "r").readlines():
+for v in open("a","r").readlines():
     y=v.split
     e=int
     f,s=y('-')

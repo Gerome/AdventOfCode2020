@@ -1,4 +1,4 @@
-with open("input.txt", "r") as f:
+with open("a", "r") as f:
     input = f.read().split('\n')
 count = 0
 for instance in input:
