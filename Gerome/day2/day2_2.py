@@ -1,12 +1,11 @@
-with open("input.txt", "r") as f:
-    d = f.read()
 c=0
-for v in d.split('\n')[:-1]:
-    f=v.split('-')
-    i=int(f[0])-1
-    j=int(f[1].split()[0])-1
-    g=v.split()
-    l=g[1][0]
-    p=g[2]
+for v in open("a.txt", "r").readlines():
+    y=v.split
+    e=int
+    f,s=y('-')
+    i=e(f)-1
+    j=e(s.split()[0])-1
+    g,x,p=y()
+    l=x[0]
     if(p[i]==l)^(p[j]==l):c+=1
 print(c)
