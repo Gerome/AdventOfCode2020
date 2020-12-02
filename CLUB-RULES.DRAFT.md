@@ -44,7 +44,7 @@
 ! - comments must start on their own lines, with // or # (else they'll get scored!)
 !   if you need indentation, use exactly 4 spaces
 -   note: if there are characters before these on the line, 
--   they will be counted (unless its a comment line)
+-   they will be scored (unless its a comment line)
 ! - jester entries count for bragging points
 !   if a jester entry scores less, then it replaces the serious answer's score
 ! - (Optional) if parts of a challenge are really similar, only latest will be kept
