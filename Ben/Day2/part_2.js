@@ -11,7 +11,7 @@ var lines = fs.readFileSync(process.argv[2], 'utf8').split(/\r?\n/);
 console.log(lines.filter(line => {
     let split = line.split(" ");
     let c = split[1].replace(":","");
-    let l = split[0].split("-")[0];
-    let u = split[0].split("-")[1];
-    if (split[2][l-1] === c ^ split[2][u-1] === c) return true;      
+    let [l, u] = split[0].split("-");
+    if (split[2][l - 1] === c ^ split[2][u - 1] === c)
+        return true;
 }).length);
