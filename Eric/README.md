@@ -41,22 +41,17 @@
 -                ░    ░  ░      ░     ░   ▒   ░  ░  ░    
 -                ░    ░         ░         ░  ░      ░    
                                             
-@@ Rules Eric is playing by: @@
-! - input unaltered from how AoC gives it
+@@ Rules Eric is playing by alongside the houserules: @@
 ! - must all be bash
-! - scripts must be self-contained & their own entry point
-! - golfing; whitespace counts but comments & surrounding whitespace don't
 ! - jester entries count for bragging points (have -jest suffix)
 ! - if parts of a challenge are really similar, only latest will be kept
 ! - if parts kept, filename follows {day}.{part}.sh convention
 ! - if only last part kept, filename follows {day}.sh convention
 ! - data files will use alphabet equivalents of double digit dates
-! - gameover at midnight! (unless ref calls extra time)
 
-@@ Playing conditions: @@
+@@ Clubs in the bag: @@
 ! - GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin19)
 ! - MacOS Catalina, 10.15.7
-! - heavy snow
 
 @@ wtf is going on with this readme!?? @@
 ! - it's a Christmas miracle ;) Ho ho ho 
