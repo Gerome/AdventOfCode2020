@@ -19,5 +19,27 @@ def countValid2: List[String] => Int =
         posA ^ posB
     }
 
+def getComponents: String => (Int, Int, Char, String) = { line =>
+    val parts = line.split(Array('-', ' ', ':'))
+    (parts(0).toInt, parts(1).toInt, parts(2).head, parts(4))
+  }
+
+def countValid1NoRegex: List[String] => Int =
+    _.count { line =>
+      val (min, max, c, pwd) = getComponents(line)
+      val count              = pwd.count(_ == c)
+      count >= min.toInt && count <= max.toInt
+    }
+
+def countValid2NoRegex: List[String] => Int =
+    _.count { line =>
+      val (a, b, c, pwd) = getComponents(line)
+      val posA           = pwd.charAt(a - 1) == c
+      val posB           = pwd.charAt(b - 1) == c
+      posA ^ posB
+    }
+
 println(countValid1(input))
 println(countValid2(input))
+println(countValid1NoRegex(input))
+println(countValid2NoRegex(input))
