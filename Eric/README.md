@@ -41,7 +41,7 @@
 -                ░    ░  ░      ░     ░   ▒   ░  ░  ░    
 -                ░    ░         ░         ░  ░      ░    
                                             
-@@ Rules Eric is playing by:
+@@ Rules Eric is playing by: @@
 ! - input unaltered from how AoC gives it
 ! - must all be bash
 ! - scripts must be self-contained & their own entry point
@@ -50,11 +50,11 @@
 ! - if parts of a challenge are really similar, only the hardest bit will be kept
 ! - gameover at midnight! (unless ref calls extra time)
 
-@@ Playing conditions:
+@@ Playing conditions: @@
 ! - GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin19)
 ! - MacOS Catalina, 10.15.7
 ! - heavy snow
 
-@@ wtf is going on with this readme!??
+@@ wtf is going on with this readme!?? @@
 ! - it's a Christmas miracle ;) Ho ho ho 
 ```
