@@ -1,8 +1,5 @@
-
-
 with open("input.txt", "r") as f:
     input = f.read().split('\n')
-
 count = 0
 for instance in input:
     if not instance:
@@ -13,5 +10,4 @@ for instance in input:
     password = instance.split('-')[1].split()[2]
     if min_occurrences <= password.count(letter) <= max_occurrences:
         count += 1
-
 print(count)
