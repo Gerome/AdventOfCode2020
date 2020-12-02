@@ -47,7 +47,10 @@
 ! - scripts must be self-contained & their own entry point
 ! - golfing; whitespace counts but comments & surrounding whitespace don't
 ! - jester entries count for bragging points (have -jest suffix)
-! - if parts of a challenge are really similar, only the hardest bit will be kept
+! - if parts of a challenge are really similar, only latest will be kept
+! - if parts kept, filename follows {day}.{part}.sh convention
+! - if only last part kept, filename follows {day}.sh convention
+! - data files will use alphabet equivalents of double digit dates
 ! - gameover at midnight! (unless ref calls extra time)
 
 @@ Playing conditions: @@
