@@ -50,6 +50,7 @@
 ! - if parts of a challenge are really similar, only latest will be kept
 ! - if parts kept, filename follows {day}.{part}.sh convention
 ! - if only last part kept, filename follows {day}.sh convention
+! - data files will use alphabet equivalents of double digit dates
 ! - gameover at midnight! (unless ref calls extra time)
 
 @@ Playing conditions: @@
