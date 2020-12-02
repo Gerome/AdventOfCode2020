@@ -20,7 +20,7 @@ print(count)
 
 d=input
 
-c = 0
+c=0
 for v in d.split('\n')[:-1]:
     f=v.split('-')
     i=int(f[0])-1
@@ -28,6 +28,6 @@ for v in d.split('\n')[:-1]:
     g=v.split()
     l=g[1][0]
     p=g[2]
-    if (p[i]==l)^(p[j]==l):c+=1
+    if(p[i]==l)^(p[j]==l):c+=1
 
 print(c)
