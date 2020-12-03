@@ -107,16 +107,6 @@ recurse() {
 
 
 # do the magic
-echo -e "\n\n@@ Global Breakdown: @@";
-recurse .
-echo -e "+ note: this ignores txt, md and extensionless files!";
-
-# make totals 0 again
-players=();
-player_totals=();
-
-
-# do the magic
 echo -e "\n\n@@ Scorecard Breakdown: @@";
 for d in */ ; do
   if [[ -d "$d" && ! -L "$d" ]]; then # its a normal dir
@@ -180,6 +170,17 @@ for i in ${!players[@]};do
 
   echo -e "${symbol} ${players[$i]} ⟶ [${player_totals[$i]}] ÷ [${player_file_count[$i]}] files ⟶ [${player_avgs[$i]}]";
 done;
+
+
+# do the magic
+echo -e "\n\n@@ Global Breakdown: @@";
+recurse .
+echo -e "+ note: this ignores txt, md and extensionless files!";
+
+# make totals 0 again
+players=();
+player_totals=();
+
 
 # last things!
 dt=$(date '+%d/%m/%Y %H:%M:%S');
