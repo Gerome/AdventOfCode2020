@@ -130,17 +130,19 @@
 ! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
 ! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽¹²⁷⁾
 ! Day 1 Part 2 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽²⁵⁴⁾
-! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [105] ⁽³⁵⁹⁾
-! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [241] ⁽⁶⁰⁰⁾
+! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [173] ⁽⁴²⁷⁾
+! Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [177] ⁽⁶⁰⁴⁾
+! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [105] ⁽⁷⁰⁹⁾
+! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [241] ⁽⁹⁵⁰⁾
 
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [704]
 + Eric scores a total [471]
 ! Gerome scores a total [1637]
-! Joe scores a total [600]
+! Joe scores a total [950]
 
 
 
-Updated 03/12/2020 20:19:51 Local time
+Updated 03/12/2020 20:23:50 Local time
 
