@@ -17,5 +17,14 @@ def solution: (List[String], (Int, Int)) => Int = {
 
 def part2: Long = slopes.map(solution(input, _).toLong).product
 
+var pos = 0
+def solutionSimpler: List[String] => Int = {
+  _.count{l =>
+    val x = l.charAt(pos%l.length) == '#'
+    pos = pos + 3
+    x
+  }
+}
+
 println(solution(input,(3,1)))
 println(part2)
