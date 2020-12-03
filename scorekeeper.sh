@@ -125,6 +125,7 @@ for i in ${!players[@]};do
 done;
 
 # last things!
-output="${output}\n";
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+output="${output}\n\n\nUpdated ${dt} Local time\n";
 printf $output > README.md;
 printf $output;
