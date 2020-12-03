@@ -83,9 +83,8 @@
 
 
 @@ Breakdown: @@
-! ./Ben/Day1/part_1.js scores [204]
-! ./Ben/Day1/part_2.js scores [234]
-! ./Ben/Day2/solution.js scores [537]
+! ./Ben/Day1/solution.js scores [363]
+! ./Ben/Day2/solution.js scores [346]
 ! ./Eric/1-jest.sh scores [116]
 ! ./Eric/1.sh scores [136]
 ! ./Eric/2.1.sh scores [156]
@@ -103,7 +102,7 @@
 
 
 @@ Totals: @@
-! Ben scores a total [975]
+! Ben scores a total [709]
 + Eric scores a total [610]
 ! Gerome scores a total [902]
 ! Joe scores a total [2537]
