@@ -82,14 +82,15 @@
 
 
 @@ Global Breakdown: @@
-! ./Ben/Day1/solution.js scores [363] ⁽³⁶³⁾
-! ./Ben/Day2/solution.js scores [343] ⁽⁷⁰⁶⁾
-! ./Ben/Day3/solution.js scores [249] ⁽⁹⁵⁵⁾
-! ./Eric/1.sh scores [135] ⁽¹³⁵⁾
-! ./Eric/1-jest.sh scores [115] ⁽²⁵⁰⁾
+! ./Ben/Day1/solution.js scores [361] ⁽³⁶¹⁾
+! ./Ben/Day2/solution.js scores [343] ⁽⁷⁰⁴⁾
+! ./Ben/Day3/solution.js scores [249] ⁽⁹⁵³⁾
+! ./Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
+! ./Eric/1.sh scores [135] ⁽²⁵⁰⁾
 ! ./Eric/2.1.sh scores [155] ⁽⁴⁰⁵⁾
 ! ./Eric/2.2.sh scores [201] ⁽⁶⁰⁶⁾
 ! ./Eric/3.1.sh scores [131] ⁽⁷³⁷⁾
+! ./Eric/3.2.sh scores [285] ⁽¹⁰²²⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -111,13 +112,14 @@
 
 
 @@ Scorecard Breakdown: @@
-! Day 1 ⟶ Ben/Day1/solution.js scores [363] ⁽³⁶³⁾
-! Day 2 ⟶ Ben/Day2/solution.js scores [343] ⁽⁷⁰⁶⁾
-! Day 3 ⟶ Ben/Day3/solution.js scores [249] ⁽⁹⁵⁵⁾
+! Day 1 ⟶ Ben/Day1/solution.js scores [361] ⁽³⁶¹⁾
+! Day 2 ⟶ Ben/Day2/solution.js scores [343] ⁽⁷⁰⁴⁾
+! Day 3 ⟶ Ben/Day3/solution.js scores [249] ⁽⁹⁵³⁾
 ! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
 ! Day 2 Part 1 ⟶ Eric/2.1.sh scores [155] ⁽²⁷⁰⁾
 ! Day 2 Part 2 ⟶ Eric/2.2.sh scores [201] ⁽⁴⁷¹⁾
 ! Day 3 Part 1 ⟶ Eric/3.1.sh scores [131] ⁽⁶⁰²⁾
+! Day 3 Part 2 ⟶ Eric/3.2.sh scores [285] ⁽⁸⁸⁷⁾
 ! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -133,12 +135,12 @@
 
 
 @@ Scorecard Totals: @@
-! Ben scores a total [955]
-+ Eric scores a total [602]
+! Ben scores a total [953]
++ Eric scores a total [887]
 ! Gerome scores a total [1637]
 ! Joe scores a total [950]
 
 
 
-Updated 03/12/2020 20:54:55 Local time
+Updated 03/12/2020 21:49:30 Local time
 
