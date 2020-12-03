@@ -85,11 +85,11 @@
 ! Day 1 ⟶ Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
 ! Day 2 ⟶ Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
 ! Day 3 ⟶ Ben/Day3/solution.js scores [249] ⁽⁷⁸⁰⁾
-! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
-! Day 2 Part 1 ⟶ Eric/2.1.sh scores [155] ⁽²⁷⁰⁾
-! Day 2 Part 2 ⟶ Eric/2.2.sh scores [201] ⁽⁴⁷¹⁾
-! Day 3 Part 1 ⟶ Eric/3.1.sh scores [131] ⁽⁶⁰²⁾
-! Day 3 Part 2 ⟶ Eric/3.2.sh scores [285] ⁽⁸⁸⁷⁾
+! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [104] ⁽¹⁰⁴⁾
+! Day 2 Part 1 ⟶ Eric/2.1.sh scores [143] ⁽²⁴⁷⁾
+! Day 2 Part 2 ⟶ Eric/2.2.sh scores [189] ⁽⁴³⁶⁾
+! Day 3 Part 1 ⟶ Eric/3.1.sh scores [120] ⁽⁵⁵⁶⁾
+! Day 3 Part 2 ⟶ Eric/3.2.sh scores [259] ⁽⁸¹⁵⁾
 ! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -106,14 +106,14 @@
 
 @@ Scorecard Totals: @@
 + Ben scores a total [780]
-! Eric scores a total [887]
+! Eric scores a total [815]
 ! Gerome scores a total [1637]
 ! Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
 ! Ben ⟶ [780] ÷ [3] files ⟶ [260]
-! Eric ⟶ [887] ÷ [5] files ⟶ [177]
+! Eric ⟶ [815] ÷ [5] files ⟶ [163]
 ! Gerome ⟶ [1637] ÷ [6] files ⟶ [272]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
@@ -122,12 +122,12 @@
 ! ./Ben/Day1/solution.js scores [275] ⁽¹⁰⁵⁵⁾
 ! ./Ben/Day2/solution.js scores [256] ⁽¹³¹¹⁾
 ! ./Ben/Day3/solution.js scores [249] ⁽¹⁵⁶⁰⁾
-! ./Eric/1.sh scores [135] ⁽¹⁰²²⁾
-! ./Eric/1-jest.sh scores [115] ⁽¹¹³⁷⁾
-! ./Eric/2.1.sh scores [155] ⁽¹²⁹²⁾
-! ./Eric/2.2.sh scores [201] ⁽¹⁴⁹³⁾
-! ./Eric/3.1.sh scores [131] ⁽¹⁶²⁴⁾
-! ./Eric/3.2.sh scores [285] ⁽¹⁹⁰⁹⁾
+! ./Eric/1-jest.sh scores [104] ⁽⁹¹⁹⁾
+! ./Eric/1.sh scores [127] ⁽¹⁰⁴⁶⁾
+! ./Eric/2.1.sh scores [143] ⁽¹¹⁸⁹⁾
+! ./Eric/2.2.sh scores [189] ⁽¹³⁷⁸⁾
+! ./Eric/3.1.sh scores [120] ⁽¹⁴⁹⁸⁾
+! ./Eric/3.2.sh scores [259] ⁽¹⁷⁵⁷⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁷⁹⁸⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽¹⁹⁷⁷⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽²³⁶⁰⁾
@@ -149,5 +149,5 @@
 
 
 
-Updated 03/12/2020 22:27:58 Local time
+Updated 03/12/2020 22:41:00 Local time
 
