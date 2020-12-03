@@ -83,21 +83,20 @@
 
 
 @@ Breakdown: @@
-! ./Ben/Day1/solution.js scores [363]
-! ./Ben/Day2/solution.js scores [346]
-! ./Eric/1-jest.sh scores [116]
-! ./Eric/1.sh scores [136]
-! ./Eric/2.1.sh scores [156]
-! ./Eric/2.2.sh scores [202]
-! ./Gerome/day1/day1_1.py scores [191]
-! ./Gerome/day1/day1_2.py scores [189]
-! ./Gerome/day2/day2_1.py scores [384]
-! ./Gerome/day2/day2_2.py scores [138]
-! ./Joe/Day1/Day1.sc scores [801]
-! ./Joe/Day1/Day1Golf.sc scores [264]
-! ./Joe/Day2/Day2.sc scores [1134]
-! ./Joe/Day2/Day2Golf.sc scores [338]
-! ./Keeper/scorekeeper.test scores [58]
+! ./Ben/Day1/solution.js scores [363] ⁽³⁶³⁾
+! ./Ben/Day2/solution.js scores [346] ⁽⁷⁰⁹⁾
+! ./Eric/1-jest.sh scores [116] ⁽¹¹⁶⁾
+! ./Eric/1.sh scores [136] ⁽²⁵²⁾
+! ./Eric/2.1.sh scores [156] ⁽⁴⁰⁸⁾
+! ./Eric/2.2.sh scores [202] ⁽⁶¹⁰⁾
+! ./Gerome/day1/day1_1.py scores [191] ⁽¹⁹¹⁾
+! ./Gerome/day1/day1_2.py scores [189] ⁽³⁸⁰⁾
+! ./Gerome/day2/day2_1.py scores [384] ⁽⁷⁶⁴⁾
+! ./Gerome/day2/day2_2.py scores [138] ⁽⁹⁰²⁾
+! ./Joe/Day1/Day1.sc scores [801] ⁽⁸⁰¹⁾
+! ./Joe/Day1/Day1Golf.sc scores [264] ⁽¹⁰⁶⁵⁾
+! ./Joe/Day2/Day2.sc scores [1134] ⁽²¹⁹⁹⁾
+! ./Joe/Day2/Day2Golf.sc scores [338] ⁽²⁵³⁷⁾
 + note: this ignores txt, md and extensionless files!
 
 
