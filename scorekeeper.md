@@ -23,7 +23,7 @@ tally() {
 # use the unique bottom of the scores title to find where to whack em
 scores_indicator="@@        |____/ \___\___/|_|  \___||___/    @@ ";
 # chomp thru the readme to find the score section
-IFS=$'\n' lines=($(<README.md));
+IFS=$'\n' lines=($(<README.template.md));
 for line in ${lines[@]}; do
   echo -e "${line}";
   if [ "$line" == "$scores_indicator" ]; then break; fi; 
