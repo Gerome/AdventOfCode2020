@@ -1,3 +1,6 @@
+: '
+```bash
+'
 # Why is this a .md file when its Bash?: to avoid GitHub's language detection 
 #
 # To run: bash scorekeeper.md
