@@ -148,7 +148,7 @@ echo -e "+ note: this ignores txt, md and extensionless files!";
 
 
 # loop final scores
-echo -e "\n\n@@ Totals: @@";
+echo -e "\n\n@@ Scorecard Totals: @@";
 for i in ${!players[@]};do
 
   # skip the Keeper, comment for debug
