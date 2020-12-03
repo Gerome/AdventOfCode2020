@@ -82,9 +82,9 @@
 
 
 @@ Scorecard Breakdown: @@
-! Day 1 ⟶ Ben/Day1/solution.js scores [361] ⁽³⁶¹⁾
-! Day 2 ⟶ Ben/Day2/solution.js scores [343] ⁽⁷⁰⁴⁾
-! Day 3 ⟶ Ben/Day3/solution.js scores [249] ⁽⁹⁵³⁾
+! Day 1 ⟶ Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
+! Day 2 ⟶ Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
+! Day 3 ⟶ Ben/Day3/solution.js scores [249] ⁽⁷⁸⁰⁾
 ! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
 ! Day 2 Part 1 ⟶ Eric/2.1.sh scores [155] ⁽²⁷⁰⁾
 ! Day 2 Part 2 ⟶ Eric/2.2.sh scores [201] ⁽⁴⁷¹⁾
@@ -105,25 +105,25 @@
 
 
 @@ Scorecard Totals: @@
-! Ben scores a total [953]
++ Ben scores a total [780]
 ! Eric scores a total [887]
 ! Gerome scores a total [1637]
-+ Joe scores a total [860]
+! Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
-! Ben ⟶ [953] ÷ [3] files ⟶ [317]
+! Ben ⟶ [780] ÷ [3] files ⟶ [260]
 ! Eric ⟶ [887] ÷ [5] files ⟶ [177]
 ! Gerome ⟶ [1637] ÷ [6] files ⟶ [272]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
 
 @@ Global Breakdown: @@
-! ./Ben/Day1/solution.js scores [361] ⁽¹³¹⁴⁾
-! ./Ben/Day2/solution.js scores [343] ⁽¹⁶⁵⁷⁾
-! ./Ben/Day3/solution.js scores [249] ⁽¹⁹⁰⁶⁾
-! ./Eric/1-jest.sh scores [115] ⁽¹⁰⁰²⁾
-! ./Eric/1.sh scores [135] ⁽¹¹³⁷⁾
+! ./Ben/Day1/solution.js scores [275] ⁽¹⁰⁵⁵⁾
+! ./Ben/Day2/solution.js scores [256] ⁽¹³¹¹⁾
+! ./Ben/Day3/solution.js scores [249] ⁽¹⁵⁶⁰⁾
+! ./Eric/1.sh scores [135] ⁽¹⁰²²⁾
+! ./Eric/1-jest.sh scores [115] ⁽¹¹³⁷⁾
 ! ./Eric/2.1.sh scores [155] ⁽¹²⁹²⁾
 ! ./Eric/2.2.sh scores [201] ⁽¹⁴⁹³⁾
 ! ./Eric/3.1.sh scores [131] ⁽¹⁶²⁴⁾
@@ -149,5 +149,5 @@
 
 
 
-Updated 03/12/2020 22:25:43 Local time
+Updated 03/12/2020 22:27:58 Local time
 
