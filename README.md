@@ -98,16 +98,16 @@
 ! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
 ! ./Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
 ! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
-! ./Joe/1/golf/1_1.sc scores [127] ⁽⁹²⁸⁾
-! ./Joe/1/golf/1_2.sc scores [133] ⁽¹⁰⁶¹⁾
-! ./Joe/2/2.sc scores [1134] ⁽²¹⁹⁵⁾
-! ./Joe/2/golf/2_1.sc scores [173] ⁽²³⁶⁸⁾
-! ./Joe/2/golf/2_2.sc scores [177] ⁽²⁵⁴⁵⁾
-! ./Joe/3/3.sc scores [602] ⁽³¹⁴⁷⁾
-! ./Joe/3/golf/3_1.sc scores [126] ⁽³²⁷³⁾
-! ./Joe/3/golf/3_1_boring.sc scores [105] ⁽³³⁷⁸⁾
-! ./Joe/3/golf/3_2.sc scores [268] ⁽³⁶⁴⁶⁾
-! ./Joe/3/golf/3_2_boring.sc scores [241] ⁽³⁸⁸⁷⁾
+! ./Joe/1/golf/1_1.sc scores [112] ⁽⁹¹³⁾
+! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁰³¹⁾
+! ./Joe/2/2.sc scores [1134] ⁽²¹⁶⁵⁾
+! ./Joe/2/golf/2_1.sc scores [158] ⁽²³²³⁾
+! ./Joe/2/golf/2_2.sc scores [162] ⁽²⁴⁸⁵⁾
+! ./Joe/3/3.sc scores [602] ⁽³⁰⁸⁷⁾
+! ./Joe/3/golf/3_1.sc scores [111] ⁽³¹⁹⁸⁾
+! ./Joe/3/golf/3_1_boring.sc scores [90] ⁽³²⁸⁸⁾
+! ./Joe/3/golf/3_2.sc scores [247] ⁽³⁵³⁵⁾
+! ./Joe/3/golf/3_2_boring.sc scores [220] ⁽³⁷⁵⁵⁾
 + note: this ignores txt, md and extensionless files!
 
 
@@ -126,28 +126,28 @@
 ! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
 ! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
 ! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
-! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽¹²⁷⁾
-! Day 1 Part 2 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽²⁵⁴⁾
-! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [173] ⁽⁴²⁷⁾
-! Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [177] ⁽⁶⁰⁴⁾
-! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [105] ⁽⁷⁰⁹⁾
-! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [241] ⁽⁹⁵⁰⁾
+! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [112] ⁽¹¹²⁾
+! Day 1 Part 2 ⟶ Joe/1/golf/1_2.sc scores [118] ⁽²³⁰⁾
+! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [158] ⁽³⁸⁸⁾
+! Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [162] ⁽⁵⁵⁰⁾
+! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [90] ⁽⁶⁴⁰⁾
+! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [220] ⁽⁸⁶⁰⁾
 
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [953]
 ! Eric scores a total [887]
 + Gerome scores a total [1637]
-! Joe scores a total [950]
+! Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
 ! Ben ⟶ [953] ÷ [3] files ⟶ [317]
 ! Eric ⟶ [887] ÷ [5] files ⟶ [177]
 ! Gerome ⟶ [1637] ÷ [6] files ⟶ [272]
-+ Joe ⟶ [950] ÷ [6] files ⟶ [158]
++ Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
 
 
-Updated 03/12/2020 22:16:35 Local time
+Updated 03/12/2020 22:17:16 Local time
 
