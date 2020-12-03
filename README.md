@@ -84,20 +84,35 @@
 @@ Global Breakdown: @@
 ! ./Ben/Day1/solution.js scores [361] ⁽³⁶¹⁾
 ! ./Ben/Day2/solution.js scores [343] ⁽⁷⁰⁴⁾
+! ./Ben/Day3/solution.js scores [249] ⁽⁹⁵³⁾
 ! ./Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
 ! ./Eric/1.sh scores [135] ⁽²⁵⁰⁾
 ! ./Eric/2.1.sh scores [155] ⁽⁴⁰⁵⁾
 ! ./Eric/2.2.sh scores [201] ⁽⁶⁰⁶⁾
-! ./Gerome/day1/day1_1.py scores [191] ⁽¹⁹¹⁾
-! ./Gerome/day1/day1_2.py scores [189] ⁽³⁸⁰⁾
-! ./Gerome/day2/day2_1.py scores [383] ⁽⁷⁶³⁾
-! ./Gerome/day2/day2_2.py scores [138] ⁽⁹⁰¹⁾
-! ./Gerome/day3/day3_1.py scores [237] ⁽¹¹³⁸⁾
-! ./Gerome/day3/day3_2.py scores [601] ⁽¹⁷³⁹⁾
-! ./Joe/Day1/Day1.sc scores [801] ⁽⁸⁰¹⁾
-! ./Joe/Day1/Day1Golf.sc scores [264] ⁽¹⁰⁶⁵⁾
-! ./Joe/Day2/Day2.sc scores [1134] ⁽²¹⁹⁹⁾
-! ./Joe/Day2/Day2Golf.sc scores [338] ⁽²⁵³⁷⁾
+! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
+! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
+! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
+! ./Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
+! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
+! ./Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
+! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
+! ./Joe/1/golf/1_1.sc scores [127] ⁽⁹²⁸⁾
+! ./Joe/1/golf/1_2.sc scores [133] ⁽¹⁰⁶¹⁾
+! ./Joe/2/2.sc scores [1134] ⁽²¹⁹⁵⁾
+! ./Joe/2/golf/2_1.sc scores [173] ⁽²³⁶⁸⁾
+! ./Joe/2/golf/2_2.sc scores [177] ⁽²⁵⁴⁵⁾
+! ./Joe/3/3.sc scores [602] ⁽³¹⁴⁷⁾
+! ./Joe/3/golf/3_1.sc scores [126] ⁽³²⁷³⁾
+! ./Joe/3/golf/3_1_boring.sc scores [105] ⁽³³⁷⁸⁾
+! ./Joe/3/golf/3_2.sc scores [268] ⁽³⁶⁴⁶⁾
+! ./Joe/3/golf/3_2_boring.sc scores [241] ⁽³⁸⁸⁷⁾
+! ./Joe/project/build.properties scores [18] ⁽³⁹⁰⁵⁾
+! ./Joe/project/target/config-classes/$9a20020001c3d501c235$.class scores [3732] ⁽⁷⁶³⁷⁾
+! ./Joe/project/target/config-classes/$9a20020001c3d501c235.cache scores [21] ⁽⁷⁶⁵⁸⁾
+! ./Joe/project/target/config-classes/$9a20020001c3d501c235.class scores [514] ⁽⁸¹⁷²⁾
+! ./Joe/project/target/config-classes/$fb6a4571f541221c7cfd$.class scores [3732] ⁽¹¹⁹⁰⁴⁾
+! ./Joe/project/target/config-classes/$fb6a4571f541221c7cfd.cache scores [21] ⁽¹¹⁹²⁵⁾
+! ./Joe/project/target/config-classes/$fb6a4571f541221c7cfd.class scores [512] ⁽¹²⁴³⁷⁾
 + note: this ignores txt, md and extensionless files!
 
 
@@ -107,23 +122,25 @@
 ! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
 ! Day 2 Part 1 ⟶ Eric/2.1.sh scores [155] ⁽²⁷⁰⁾
 ! Day 2 Part 2 ⟶ Eric/2.2.sh scores [201] ⁽⁴⁷¹⁾
-! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [191] ⁽¹⁹¹⁾
-! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [189] ⁽³⁸⁰⁾
-! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷⁶³⁾
-! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁹⁰¹⁾
-! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹¹³⁸⁾
-! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [601] ⁽¹⁷³⁹⁾
-! Day 1 ⟶ Joe/Day1/Day1Golf.sc scores [264] ⁽²⁶⁴⁾
-! Day 2 ⟶ Joe/Day2/Day2Golf.sc scores [338] ⁽⁶⁰²⁾
+! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
+! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
+! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
+! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
+! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
+! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
+! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽¹²⁷⁾
+! Day 1 Part 2 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽²⁵⁴⁾
+! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [105] ⁽³⁵⁹⁾
+! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [241] ⁽⁶⁰⁰⁾
 
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [704]
 + Eric scores a total [471]
-! Gerome scores a total [1739]
-! Joe scores a total [602]
+! Gerome scores a total [1637]
+! Joe scores a total [600]
 
 
 
-Updated 03/12/2020 13:23:23 Local time
+Updated 03/12/2020 20:19:51 Local time
 
