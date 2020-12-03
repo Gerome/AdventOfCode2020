@@ -102,19 +102,19 @@
 
 
 @@ Scorecard Breakdown: @@
-! Ben/Day1/solution.js scores [361] ⁽³⁶¹⁾
-! Ben/Day2/solution.js scores [343] ⁽⁷⁰⁴⁾
-! Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
-! Eric/2.1.sh scores [155] ⁽²⁷⁰⁾
-! Eric/2.2.sh scores [201] ⁽⁴⁷¹⁾
-! Gerome/day1/day1_1.py scores [191] ⁽¹⁹¹⁾
-! Gerome/day1/day1_2.py scores [189] ⁽³⁸⁰⁾
-! Gerome/day2/day2_1.py scores [383] ⁽⁷⁶³⁾
-! Gerome/day2/day2_2.py scores [138] ⁽⁹⁰¹⁾
-! Gerome/day3/day3_1.py scores [237] ⁽¹¹³⁸⁾
-! Gerome/day3/day3_2.py scores [601] ⁽¹⁷³⁹⁾
-! Joe/Day1/Day1Golf.sc scores [264] ⁽²⁶⁴⁾
-! Joe/Day2/Day2Golf.sc scores [338] ⁽⁶⁰²⁾
+! Day 1 ⟶ Ben/Day1/solution.js scores [361] ⁽³⁶¹⁾
+! Day 2 ⟶ Ben/Day2/solution.js scores [343] ⁽⁷⁰⁴⁾
+! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [115] ⁽¹¹⁵⁾
+! Day 2 Part 1 ⟶ Eric/2.1.sh scores [155] ⁽²⁷⁰⁾
+! Day 2 Part 2 ⟶ Eric/2.2.sh scores [201] ⁽⁴⁷¹⁾
+! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [191] ⁽¹⁹¹⁾
+! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [189] ⁽³⁸⁰⁾
+! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷⁶³⁾
+! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁹⁰¹⁾
+! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹¹³⁸⁾
+! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [601] ⁽¹⁷³⁹⁾
+! Day 1 ⟶ Joe/Day1/Day1Golf.sc scores [264] ⁽²⁶⁴⁾
+! Day 2 ⟶ Joe/Day2/Day2Golf.sc scores [338] ⁽⁶⁰²⁾
 
 
 @@ Scorecard Totals: @@
@@ -125,5 +125,5 @@
 
 
 
-Updated 03/12/2020 13:21:54 Local time
+Updated 03/12/2020 13:23:23 Local time
 

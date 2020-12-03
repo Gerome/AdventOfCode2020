@@ -136,7 +136,7 @@ for d in */ ; do
           players[$player_index]=$player;
           player_totals[$player_index]=$[player_totals[$player_index] + score];
           tiny_running_total=$(tiny ${player_totals[$player_index]});
-          echo -e "! ${file_path} scores [${score}] ⁽${tiny_running_total}⁾";
+          echo -e "! ${chunks[0]} ⟶ ${file_path} scores [${score}] ⁽${tiny_running_total}⁾";
         fi;
 
       done;
