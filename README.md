@@ -115,7 +115,6 @@
 ! Gerome/day3/day3_2.py scores [601] ⁽¹⁷³⁹⁾
 ! Joe/Day1/Day1Golf.sc scores [264] ⁽²⁶⁴⁾
 ! Joe/Day2/Day2Golf.sc scores [338] ⁽⁶⁰²⁾
-+ note: this ignores txt, md and extensionless files!
 
 
 @@ Scorecard Totals: @@
@@ -126,5 +125,5 @@
 
 
 
-Updated 03/12/2020 13:20:34 Local time
+Updated 03/12/2020 13:21:54 Local time
 

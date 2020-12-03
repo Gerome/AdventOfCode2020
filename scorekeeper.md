@@ -144,7 +144,6 @@ for d in */ ; do
     fi;
   fi;
 done
-echo -e "+ note: this ignores txt, md and extensionless files!";
 
 
 # loop final scores
