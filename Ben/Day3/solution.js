@@ -1,5 +1,5 @@
-var i=require('fs').readFileSync('i','utf8').split(/\r?\n/)
-let r=(s)=>(s.map(n=>{
+i=require('fs').readFileSync('i','utf8').split(/\r?\n/)
+r=(s)=>(s.map(n=>{
     for([xi,yi]=n,x=y=c=0;y+yi<i.length;i[y+=yi][(x+=xi)%i[y].length]=='#'?c++:0);
     return c
 }).reduce((a,c)=>a*c))
