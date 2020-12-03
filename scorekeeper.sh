@@ -25,6 +25,8 @@ for line in ${lines[@]}; do
   if [ "$line" == "$scores_indicator" ]; then break; fi; 
 done;
 
+
+
 # tally up the scores!!
 trim() {
     local trimmed="$1";
@@ -48,6 +50,10 @@ ord() {
   LC_CTYPE=C printf '%d' "'$1"
 }
 
+tiny() {
+    sed 'y/0123456789/⁰¹²³⁴⁵⁶⁷⁸⁹/' <<< "$1"
+}
+
 score_file() {
   score=0;
   IFS=$'\n' file_lines=($(< $1));
@@ -69,6 +75,9 @@ recurse() {
     player=$(echo "$i" | cut -d "/" -f2);
     player_index=$(ord $player);
 
+    # skip the Keeper, comment for debug
+    if [ "$player" == "Keeper" ]; then continue; fi;
+
     # its a dir
     if [ -d "$i" ];then
         recurse "$i";
@@ -83,9 +92,10 @@ recurse() {
           if [[ $filename =~ (.*)?\.(.*) ]]; then :; else continue; fi; # skip extensionless files
 
           local score=$(score_file $i);
-          output="${output}\n! ${i} scores [${score}]";
           players[$player_index]=$player;
           player_totals[$player_index]=$[player_totals[$player_index] + score];
+          tiny_running_total=$(tiny ${player_totals[$player_index]});
+          output="${output}\n! ${i} scores [${score}] ⁽${tiny_running_total}⁾";
         fi;
     fi;
  done;
@@ -117,3 +127,4 @@ done;
 # last things!
 output="${output}\n";
 printf $output > README.md;
+printf $output;
