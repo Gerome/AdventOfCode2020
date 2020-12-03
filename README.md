@@ -137,8 +137,8 @@
 @@ Scorecard Totals: @@
 ! Ben scores a total [953]
 ! Eric scores a total [887]
-+ Gerome scores a total [1637]
-! Joe scores a total [860]
+! Gerome scores a total [1637]
++ Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
@@ -149,5 +149,5 @@
 
 
 
-Updated 03/12/2020 22:17:16 Local time
+Updated 03/12/2020 22:18:01 Local time
 

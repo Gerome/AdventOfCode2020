@@ -158,7 +158,7 @@ for i in ${!players[@]};do
   for opp in ${!players[@]};do
     # skip the Keeper, comment for debug
     if [ "${players[$opp]}" == "Keeper" ]; then continue; fi;
-    if (("${player_totals[$opp]}" > "${player_totals[$i]}")); then symbol="!"; fi;
+    if (("${player_totals[$opp]}" < "${player_totals[$i]}")); then symbol="!"; fi;
   done;
 
   echo -e "${symbol} ${players[$i]} scores a total [${player_totals[$i]}]";
