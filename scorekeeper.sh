@@ -15,10 +15,6 @@
 
 # use the unique bottom of the scores title to find where to whack em
 scores_indicator="@@        |____/ \___\___/|_|  \___||___/    @@ ";
-# just a handy signal for debugging 
-signal="~~~~~~~~~~MERRY CHRISTMAS~~~~~~~~~~";
-# everything after the scores_indicator is going to be wiped, so we'll need 3 ticks to close off later
-file_ender="\`\`\`";
 # output string, gotta start somewhere
 output="";
 
@@ -117,8 +113,6 @@ for i in ${!players[@]};do
 
   output="${output}\n${symbol} ${players[$i]} scores a total [${player_totals[$i]}]";
 done;
-#score_file "scorekeeper.test"
-
 
 # last things!
 output="${output}\n";
