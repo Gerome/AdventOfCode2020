@@ -1,5 +1,8 @@
-# To run: bash scorekeeper.sh
-# To run real mean: bash scorekeeper.sh && git commit . -m "Score keeping." && git push
+#!/bin/sh
+# Why is this a .md file when its Bash?: to avoid GitHub's language detection 
+#
+# To run: bash scorekeeper.md
+# To run real mean: bash scorekeeper.md && git commit . -m "Score keeping." && git push
 #
 # What I do: scan the directories and append a scores table & breakdown to the bottom
 # Stuff to be aware of: 
