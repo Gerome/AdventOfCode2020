@@ -1,8 +1,9 @@
-```diff        
 
+```diff        
+ 
                              ))    ((
-                            //      \\
-                           | \\____// |
+                            //      \.
+                           | \____// |
                           \~/ ~    ~\/~~/
                            (|    _/o  ~~
                             /  /     ,|
@@ -15,7 +16,6 @@
 | ██║     ██╔══██║██╔═══╝ ██║     ██╔══██║██║╚██╗██║██║  ██║
 - ███████╗██║  ██║██║     ███████╗██║  ██║██║ ╚████║██████╔╝
   ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝
-
 -  ██████╗  ██████╗ ██╗     ███████╗     ██████╗██╗     ██╗   ██╗██████╗
 | ██╔════╝ ██╔═══██╗██║     ██╔════╝    ██╔════╝██║     ██║   ██║██╔══██╗
 | ██║  ███╗██║   ██║██║     █████╗      ██║     ██║     ██║   ██║██████╔╝
@@ -35,15 +35,15 @@
 (_/|_  / / / <_</_/ (_/ (_/ (_/_  (__// /_/ (_<_/_)_<__/ / / <_(_/|_/_)_
                              /                                          
                             '                                           
-
-
+ 
+ 
 @@         _   _                        ____        _                   @@
 @@        | | | | ___  _   _ ___  ___  |  _ \ _   _| | ___  ___         @@
 @@        | |_| |/ _ \| | | / __|/ _ \ | |_) | | | | |/ _ \/ __|        @@
 @@        |  _  | (_) | |_| \__ \  __/ |  _ <| |_| | |  __/\__ \        @@
-@@        |_| |_|\___/ \__,_|___/\___| |_| \_\\__,_|_|\___||___/        @@
-                                                       
-
+@@        |_| |_|\___/ \__,_|___/\___| |_| \_\__,_|_|\___||___/        @@
+                                              
+ 
 @@ Out on the field: @@
 + these rules help the score keeping elves, try to stick to them!
 ! - input unaltered from how AoC gives it
@@ -60,28 +60,50 @@
 ! - (Optional) if parts of a challenge are really similar, only latest will be kept
 ! - gameover for solving at midnight! (unless club ref calls extra time)
 ! - you can revise old games, but only if they were solved that day & only within reason
-
+ 
 @@ Latecomer rules: @@
 + if you're late to the party, catch up quick as you can, ignore the last rule above till then.
-
+ 
 @@ Today's playing conditions: @@
 ! - heavy snow
 ! - some polar bear sightings
-
+ 
 @@ wtf is going on with this readme!?? @@
 ! - it's a Christmas miracle ;) Ho ho ho 
-
-
-
-
+- - please don't edit this file, talk to Club VP Eric first
+ 
+ 
+ 
+ 
 @@         ____                              @@
 @@        / ___|  ___ ___  _ __ ___  ___     @@
 @@        \___ \ / __/ _ \| '__/ _ \/ __|    @@
 @@         ___) | (_| (_) | | |  __/\__ \    @@
 @@        |____/ \___\___/|_|  \___||___/    @@ 
 
-+ Coming soon! This will list all your files scores
-+ (without comments, surrounding whitespace or tabs)
-                                
-```
 
+@@ Breakdown: @@
+! ./Ben/Day1/part_1.js scores [204]
+! ./Ben/Day1/part_2.js scores [234]
+! ./Ben/Day2/solution.js scores [537]
+! ./Eric/1-jest.sh scores [116]
+! ./Eric/1.sh scores [136]
+! ./Eric/2.1.sh scores [156]
+! ./Eric/2.2.sh scores [202]
+! ./Gerome/day1/day1_1.py scores [191]
+! ./Gerome/day1/day1_2.py scores [189]
+! ./Gerome/day2/day2_1.py scores [384]
+! ./Gerome/day2/day2_2.py scores [138]
+! ./Joe/Day1/Day1.sc scores [801]
+! ./Joe/Day1/Day1Golf.sc scores [264]
+! ./Joe/Day2/Day2.sc scores [1134]
+! ./Joe/Day2/Day2Golf.sc scores [338]
+! ./Keeper/scorekeeper.test scores [58]
++ note: this ignores txt, md and extensionless files!
+
+
+@@ Totals: @@
+! Ben scores a total [975]
++ Eric scores a total [610]
+! Gerome scores a total [902]
+! Joe scores a total [2537]
