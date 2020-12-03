@@ -23,12 +23,9 @@ def hit_trees(horiz, vert):
     print(c)
     return c
 
-right_movements = [1, 3, 5, 7, 1]
-down_movement = [1, 1, 1, 1, 2]
-
 total = 1
 
-for y in [hit_trees(horiz, vert) for horiz, vert in zip(right_movements, down_movement)]:
+for y in [hit_trees(horiz, vert) for horiz, vert in zip([1, 3, 5, 7, 1], [1, 1, 1, 1, 2])]:
     total *= y
 
 print(total)
