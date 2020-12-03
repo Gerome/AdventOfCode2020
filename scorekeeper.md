@@ -18,15 +18,14 @@
 # To Test: uncomment the keeper checks at the end & compare with Keeper/scorekeeper.test
 
 
+tally() {
+
 # use the unique bottom of the scores title to find where to whack em
 scores_indicator="@@        |____/ \___\___/|_|  \___||___/    @@ ";
-# output string, gotta start somewhere
-output="";
-
 # chomp thru the readme to find the score section
-IFS=$'\n' lines=($(<README.md));
+IFS=$'\n' lines=($(<README.template.md));
 for line in ${lines[@]}; do
-  output="${output}\n${line}";
+  echo -e "${line}";
   if [ "$line" == "$scores_indicator" ]; then break; fi; 
 done;
 
@@ -43,7 +42,7 @@ trim() {
     while [[ $trimmed == *' ' ]]; do
         trimmed="${trimmed%% }";
     done;
-    echo "$trimmed"
+    echo -e "$trimmed"
 }
 
 chr() {
@@ -71,13 +70,13 @@ score_file() {
     line_score=${#file_line};
     score=$[score+line_score];
   done;
-  echo $score;
+  echo -e $score;
 }
 
 recurse() {
  for i in "$1"/*;do
 
-    player=$(echo "$i" | cut -d "/" -f2);
+    player=$(echo -e "$i" | cut -d "/" -f2);
     player_index=$(ord $player);
 
     # skip the Keeper, comment for debug
@@ -100,20 +99,55 @@ recurse() {
           players[$player_index]=$player;
           player_totals[$player_index]=$[player_totals[$player_index] + score];
           tiny_running_total=$(tiny ${player_totals[$player_index]});
-          output="${output}\n! ${i} scores [${score}] ⁽${tiny_running_total}⁾";
+          echo -e "! ${i} scores [${score}] ⁽${tiny_running_total}⁾";
         fi;
     fi;
  done;
 }
 
+
 # do the magic
-output="${output}\n\n\n@@ Breakdown: @@";
+echo -e "\n\n@@ Global Breakdown: @@";
 recurse .
-output="${output}\n+ note: this ignores txt, md and extensionless files!";
+echo -e "+ note: this ignores txt, md and extensionless files!";
+
+# make totals 0 again
+players=();
+player_totals=();
+
+
+# do the magic
+echo -e "\n\n@@ Scorecard Breakdown: @@";
+for d in */ ; do
+  if [[ -d "$d" && ! -L "$d" ]]; then # its a normal dir
+    player="$(basename "$d")";
+    player_index=$(ord $player);
+    scorecard_path="${d}.scorecard";
+    if [ -f "$scorecard_path" ]; then # .scorecard exists
+
+      IFS=$'\n' sc_lines=($(< $scorecard_path));
+      for l in ${sc_lines[@]}; do
+        IFS=: chunks=($l);
+        file_name=$(trim ${chunks[1]});
+        file_path="${d}${file_name}";
+
+        if [ -f "$file_path" ]; then # .scorecard exists
+          score=$(score_file $file_path);
+          players[$player_index]=$player;
+          player_totals[$player_index]=$[player_totals[$player_index] + score];
+          tiny_running_total=$(tiny ${player_totals[$player_index]});
+          echo -e "! ${chunks[0]} ⟶ ${file_path} scores [${score}] ⁽${tiny_running_total}⁾";
+        fi;
+
+      done;
+
+    fi;
+  fi;
+done
 
 
 # loop final scores
-output="${output}\n\n\n@@ Totals: @@";
+echo -e "\n\n@@ Scorecard Totals: @@";
 for i in ${!players[@]};do
 
   # skip the Keeper, comment for debug
@@ -126,11 +160,12 @@ for i in ${!players[@]};do
     if (("${player_totals[$opp]}" < "${player_totals[$i]}")); then symbol="!"; fi;
   done;
 
-  output="${output}\n${symbol} ${players[$i]} scores a total [${player_totals[$i]}]";
+  echo -e "${symbol} ${players[$i]} scores a total [${player_totals[$i]}]";
 done;
 
 # last things!
 dt=$(date '+%d/%m/%Y %H:%M:%S');
-output="${output}\n\n\nUpdated ${dt} Local time\n";
-printf $output > README.md;
-printf $output;
+echo -e "\n\n\nUpdated ${dt} Local time\n";
+}
+
+tally > README.md
