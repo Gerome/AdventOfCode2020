@@ -131,9 +131,10 @@ for d in */ ; do
         file_name=$(trim ${chunks[1]});
         file_path="${d}${file_name}";
 
-        if [ -f "$file_path" ]; then # .scorecard exists
+        if [ -f "$file_path" ]; then # referenced file exists
           score=$(score_file $file_path);
           players[$player_index]=$player;
+          ((player_file_count[$player_index]++));
           player_totals[$player_index]=$[player_totals[$player_index] + score];
           tiny_running_total=$(tiny ${player_totals[$player_index]});
           echo -e "! ${chunks[0]} ⟶ ${file_path} scores [${score}] ⁽${tiny_running_total}⁾";
@@ -153,14 +154,31 @@ for i in ${!players[@]};do
   # skip the Keeper, comment for debug
   if [ "${players[$i]}" == "Keeper" ]; then continue; fi;
 
-  symbol="+";   
+  symbol="+";
   for opp in ${!players[@]};do
     # skip the Keeper, comment for debug
     if [ "${players[$opp]}" == "Keeper" ]; then continue; fi;
-    if (("${player_totals[$opp]}" < "${player_totals[$i]}")); then symbol="!"; fi;
+    if (("${player_totals[$opp]}" > "${player_totals[$i]}")); then symbol="!"; fi;
   done;
 
   echo -e "${symbol} ${players[$i]} scores a total [${player_totals[$i]}]";
+done;
+
+
+# loop final scores
+echo -e "\n\n@@ Scorecard Averages: @@";
+for i in ${!players[@]};do
+  # skip the Keeper, comment for debug
+  if [ "${players[$i]}" == "Keeper" ]; then continue; fi;
+  player_avgs[$i]=$[player_totals[$i] / player_file_count[$i]];
+
+  symbol="+";   
+  for opp in ${!players[@]};do
+    if [ "${players[$opp]}" == "Keeper" ]; then continue; fi;
+    if [[ "${player_avgs[$opp]}" < "${player_avgs[$i]}" ]]; then symbol="!"; fi;
+  done;
+
+  echo -e "${symbol} ${players[$i]} ⟶ [${player_totals[$i]}] ÷ [${player_file_count[$i]}] files ⟶ [${player_avgs[$i]}]";
 done;
 
 # last things!
@@ -168,4 +186,5 @@ dt=$(date '+%d/%m/%Y %H:%M:%S');
 echo -e "\n\n\nUpdated ${dt} Local time\n";
 }
 
+#tally;
 tally > README.md
