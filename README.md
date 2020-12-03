@@ -119,35 +119,35 @@
 
 
 @@ Global Breakdown: @@
-! ./Ben/Day1/solution.js scores [275] ⁽¹⁰⁵⁵⁾
-! ./Ben/Day2/solution.js scores [256] ⁽¹³¹¹⁾
-! ./Ben/Day3/solution.js scores [249] ⁽¹⁵⁶⁰⁾
-! ./Eric/1-jest.sh scores [104] ⁽⁹¹⁹⁾
-! ./Eric/1.sh scores [127] ⁽¹⁰⁴⁶⁾
-! ./Eric/2.1.sh scores [143] ⁽¹¹⁸⁹⁾
-! ./Eric/2.2.sh scores [189] ⁽¹³⁷⁸⁾
-! ./Eric/3.1.sh scores [120] ⁽¹⁴⁹⁸⁾
-! ./Eric/3.2.sh scores [259] ⁽¹⁷⁵⁷⁾
-! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁷⁹⁸⁾
-! ./Gerome/day1/day1_2.py scores [179] ⁽¹⁹⁷⁷⁾
-! ./Gerome/day2/day2_1.py scores [383] ⁽²³⁶⁰⁾
-! ./Gerome/day2/day2_2.py scores [138] ⁽²⁴⁹⁸⁾
-! ./Gerome/day3/day3_1.py scores [237] ⁽²⁷³⁵⁾
-! ./Gerome/day3/day3_2.py scores [539] ⁽³²⁷⁴⁾
-! ./Joe/1/1.sc scores [801] ⁽¹⁶⁶¹⁾
-! ./Joe/1/golf/1_1.sc scores [112] ⁽¹⁷⁷³⁾
-! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁸⁹¹⁾
-! ./Joe/2/2.sc scores [1134] ⁽³⁰²⁵⁾
-! ./Joe/2/golf/2_1.sc scores [158] ⁽³¹⁸³⁾
-! ./Joe/2/golf/2_2.sc scores [162] ⁽³³⁴⁵⁾
-! ./Joe/3/3.sc scores [602] ⁽³⁹⁴⁷⁾
-! ./Joe/3/golf/3_1.sc scores [111] ⁽⁴⁰⁵⁸⁾
-! ./Joe/3/golf/3_1_boring.sc scores [90] ⁽⁴¹⁴⁸⁾
-! ./Joe/3/golf/3_2.sc scores [247] ⁽⁴³⁹⁵⁾
-! ./Joe/3/golf/3_2_boring.sc scores [220] ⁽⁴⁶¹⁵⁾
+! ./Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
+! ./Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
+! ./Ben/Day3/solution.js scores [249] ⁽⁷⁸⁰⁾
+! ./Eric/1-jest.sh scores [104] ⁽¹⁰⁴⁾
+! ./Eric/1.sh scores [127] ⁽²³¹⁾
+! ./Eric/2.1.sh scores [143] ⁽³⁷⁴⁾
+! ./Eric/2.2.sh scores [189] ⁽⁵⁶³⁾
+! ./Eric/3.1.sh scores [120] ⁽⁶⁸³⁾
+! ./Eric/3.2.sh scores [259] ⁽⁹⁴²⁾
+! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
+! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
+! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
+! ./Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
+! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
+! ./Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
+! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
+! ./Joe/1/golf/1_1.sc scores [112] ⁽⁹¹³⁾
+! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁰³¹⁾
+! ./Joe/2/2.sc scores [1134] ⁽²¹⁶⁵⁾
+! ./Joe/2/golf/2_1.sc scores [158] ⁽²³²³⁾
+! ./Joe/2/golf/2_2.sc scores [162] ⁽²⁴⁸⁵⁾
+! ./Joe/3/3.sc scores [602] ⁽³⁰⁸⁷⁾
+! ./Joe/3/golf/3_1.sc scores [111] ⁽³¹⁹⁸⁾
+! ./Joe/3/golf/3_1_boring.sc scores [90] ⁽³²⁸⁸⁾
+! ./Joe/3/golf/3_2.sc scores [247] ⁽³⁵³⁵⁾
+! ./Joe/3/golf/3_2_boring.sc scores [220] ⁽³⁷⁵⁵⁾
 + note: this ignores txt, md and extensionless files!
 
 
 
-Updated 03/12/2020 22:41:00 Local time
+Updated 03/12/2020 23:00:14 Local time
 

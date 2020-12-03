@@ -172,14 +172,15 @@ for i in ${!players[@]};do
 done;
 
 
+# make totals 0 again
+players=();
+player_totals=();
+
+
 # do the magic
 echo -e "\n\n@@ Global Breakdown: @@";
 recurse .
 echo -e "+ note: this ignores txt, md and extensionless files!";
-
-# make totals 0 again
-players=();
-player_totals=();
 
 
 # last things!
