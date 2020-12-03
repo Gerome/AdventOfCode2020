@@ -98,16 +98,29 @@
 ! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
 ! ./Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
 ! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
-! ./Joe/1/golf/1_1.sc scores [127] ⁽⁹²⁸⁾
-! ./Joe/1/golf/1_2.sc scores [133] ⁽¹⁰⁶¹⁾
-! ./Joe/2/2.sc scores [1134] ⁽²¹⁹⁵⁾
-! ./Joe/2/golf/2_1.sc scores [173] ⁽²³⁶⁸⁾
-! ./Joe/2/golf/2_2.sc scores [177] ⁽²⁵⁴⁵⁾
-! ./Joe/3/3.sc scores [602] ⁽³¹⁴⁷⁾
-! ./Joe/3/golf/3_1.sc scores [126] ⁽³²⁷³⁾
-! ./Joe/3/golf/3_1_boring.sc scores [105] ⁽³³⁷⁸⁾
-! ./Joe/3/golf/3_2.sc scores [268] ⁽³⁶⁴⁶⁾
-! ./Joe/3/golf/3_2_boring.sc scores [241] ⁽³⁸⁸⁷⁾
+! ./Joe/1/golf/1_1.sc scores [112] ⁽⁹¹³⁾
+! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁰³¹⁾
+! ./Joe/2/2.sc scores [1134] ⁽²¹⁶⁵⁾
+! ./Joe/2/golf/2_1.sc scores [158] ⁽²³²³⁾
+! ./Joe/2/golf/2_2.sc scores [162] ⁽²⁴⁸⁵⁾
+! ./Joe/3/3.sc scores [602] ⁽³⁰⁸⁷⁾
+! ./Joe/3/golf/3_1.sc scores [111] ⁽³¹⁹⁸⁾
+! ./Joe/3/golf/3_1_boring.sc scores [90] ⁽³²⁸⁸⁾
+! ./Joe/3/golf/3_2.sc scores [247] ⁽³⁵³⁵⁾
+! ./Joe/3/golf/3_2_boring.sc scores [220] ⁽³⁷⁵⁵⁾
+! ./Joe/project/build.properties scores [18] ⁽³⁷⁷³⁾
+! ./Joe/project/project/target/config-classes/$7837509f373c5fad0bf3$.class scores [3803] ⁽⁷⁵⁷⁶⁾
+! ./Joe/project/project/target/config-classes/$7837509f373c5fad0bf3.cache scores [21] ⁽⁷⁵⁹⁷⁾
+! ./Joe/project/project/target/config-classes/$7837509f373c5fad0bf3.class scores [575] ⁽⁸¹⁷²⁾
+! ./Joe/project/target/config-classes/$9a20020001c3d501c235$.class scores [3732] ⁽¹¹⁹⁰⁴⁾
+! ./Joe/project/target/config-classes/$9a20020001c3d501c235.cache scores [21] ⁽¹¹⁹²⁵⁾
+! ./Joe/project/target/config-classes/$9a20020001c3d501c235.class scores [514] ⁽¹²⁴³⁹⁾
+! ./Joe/project/target/config-classes/$bba94131ad591f2dd58c$.class scores [2192] ⁽¹⁴⁶³¹⁾
+! ./Joe/project/target/config-classes/$bba94131ad591f2dd58c.cache scores [21] ⁽¹⁴⁶⁵²⁾
+! ./Joe/project/target/config-classes/$bba94131ad591f2dd58c.class scores [513] ⁽¹⁵¹⁶⁵⁾
+! ./Joe/project/target/config-classes/$fb6a4571f541221c7cfd$.class scores [3732] ⁽¹⁸⁸⁹⁷⁾
+! ./Joe/project/target/config-classes/$fb6a4571f541221c7cfd.cache scores [21] ⁽¹⁸⁹¹⁸⁾
+! ./Joe/project/target/config-classes/$fb6a4571f541221c7cfd.class scores [512] ⁽¹⁹⁴³⁰⁾
 + note: this ignores txt, md and extensionless files!
 
 
@@ -126,21 +139,21 @@
 ! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
 ! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
 ! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
-! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽¹²⁷⁾
-! Day 1 Part 2 ⟶ Joe/1/golf/1_1.sc scores [127] ⁽²⁵⁴⁾
-! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [173] ⁽⁴²⁷⁾
-! Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [177] ⁽⁶⁰⁴⁾
-! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [105] ⁽⁷⁰⁹⁾
-! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [241] ⁽⁹⁵⁰⁾
+! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [112] ⁽¹¹²⁾
+! Day 1 Part 2 ⟶ Joe/1/golf/1_1.sc scores [112] ⁽²²⁴⁾
+! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [158] ⁽³⁸²⁾
+! Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [162] ⁽⁵⁴⁴⁾
+! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [90] ⁽⁶³⁴⁾
+! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [220] ⁽⁸⁵⁴⁾
 
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [953]
-+ Eric scores a total [887]
+! Eric scores a total [887]
 ! Gerome scores a total [1637]
-! Joe scores a total [950]
++ Joe scores a total [854]
 
 
 
-Updated 03/12/2020 21:49:30 Local time
+Updated 03/12/2020 22:03:16 Local time
 
