@@ -7,19 +7,23 @@ q=(1 7 5 3 1)
 f=1
 j=0
 for s in ${q[@]}
-{ y=0
+{ 
+y=0
 t=0
 x=1
 for line in ${l[@]}
 {((y++))
-if((f && y % 2))
-then continue
+if((f&&y%2))
+then
+continue
 fi
 n=${#line}
 x=$[x+s]
 i=$[x%n]
 ((i--))
-[[ "${line:$i:1}" = "#" ]]&&((t++))
+[[ 
+  "${line:$i:1}" = "#"
+   ]]&&((t++))
 }
 k[$j]=$t
 f=0
