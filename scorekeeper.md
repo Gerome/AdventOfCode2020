@@ -6,6 +6,14 @@
 # To run: bash scorekeeper.md
 # To run real mean: bash scorekeeper.md && git commit . -m "Score keeping." && git push
 #
+# How .scorecard works: 
+# - Player puts a .scorecard file in their directory
+# - Player lists filepaths to be scored relative to their Directory
+# - Format is.. [free text]: [filepath]
+#   eg.  Day One Part One: day-one/answer.ext
+# - An optional status comment can be set on the file by starting the first line with a hash (#)
+#   This optional status comment must be single line and only the first line. 
+#
 # What I do: scan the directories and append a scores table & breakdown to the bottom
 # Stuff to be aware of: 
 # - I overwrite the existing README.md
@@ -120,8 +128,19 @@ for d in */ ; do
 
     if [ -f "$scorecard_path" ]; then # .scorecard exists
 
+      echo "+ ${player}";
+
       IFS=$'\n' sc_lines=($(< $scorecard_path));
+      line_number=1;
       for l in ${sc_lines[@]}; do
+
+        # check for a file comment
+        if [ $line_number == 1 ] && [ "${l::1}" == "#" ]; 
+        then 
+          echo $l;
+          continue;
+        fi;
+
         IFS=: chunks=($l);
         file_name=$(trim ${chunks[1]});
         file_path="${d}${file_name}";

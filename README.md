@@ -82,10 +82,13 @@
 
 
 @@ Scorecard Breakdown: @@
++ Ben
 ! Day 1 ⟶ Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
 ! Day 2 ⟶ Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
 ! Day 3 ⟶ Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
 ! Day 4 ⟶ Ben/Day4/solution.js scores [975] ⁽¹⁷⁴⁷⁾
++ Eric
+# Golfing in Bash & snow boots
 ! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [104] ⁽¹⁰⁴⁾
 ! Day 2 Part 1 ⟶ Eric/2.1.sh scores [143] ⁽²⁴⁷⁾
 ! Day 2 Part 2 ⟶ Eric/2.2.sh scores [183] ⁽⁴³⁰⁾
@@ -93,6 +96,7 @@
 ! Day 3 Part 2 ⟶ Eric/3.2.sh scores [251] ⁽⁷⁹⁹⁾
 ! Day 4 Part 1 ⟶ Eric/4.1.sh scores [185] ⁽⁹⁸⁴⁾
 ! Day 4 Part 2 ⟶ Eric/4.2.sh scores [487] ⁽¹⁴⁷¹⁾
++ Gerome
 ! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -101,6 +105,7 @@
 ! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
 ! Day 4 Part 1 ⟶ Gerome/day4/day4_1.py scores [298] ⁽¹⁹³⁵⁾
 ! Day 4 Part 2 ⟶ Gerome/day4/day4_2.py scores [1065] ⁽³⁰⁰⁰⁾
++ Joe
 ! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [112] ⁽¹¹²⁾
 ! Day 1 Part 2 ⟶ Joe/1/golf/1_2.sc scores [118] ⁽²³⁰⁾
 ! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [158] ⁽³⁸⁸⁾
@@ -163,5 +168,5 @@
 
 
 
-Updated 04/12/2020 20:55:13 Local time
+Updated 04/12/2020 21:15:16 Local time
 
