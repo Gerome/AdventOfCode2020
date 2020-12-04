@@ -132,7 +132,7 @@
 ! ./Eric/3.1.sh scores [118] ⁽⁶⁷⁵⁾
 ! ./Eric/3.2.sh scores [251] ⁽⁹²⁶⁾
 ! ./Eric/4.1.sh scores [185] ⁽¹¹¹¹⁾
-! ./Eric/4.2.sh scores [1088] ⁽²¹⁹⁹⁾
+! ./Eric/4.2.sh scores [489] ⁽¹⁶⁰⁰⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -156,5 +156,5 @@
 
 
 
-Updated 04/12/2020 19:52:52 Local time
+Updated 04/12/2020 19:56:26 Local time
 
