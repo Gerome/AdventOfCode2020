@@ -85,7 +85,7 @@
 ! Day 1 ⟶ Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
 ! Day 2 ⟶ Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
 ! Day 3 ⟶ Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
-! Day 4 ⟶ Ben/Day4/solution.js scores [195] ⁽⁹⁶⁷⁾
+! Day 4 ⟶ Ben/Day4/solution.js scores [975] ⁽¹⁷⁴⁷⁾
 ! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [104] ⁽¹⁰⁴⁾
 ! Day 2 Part 1 ⟶ Eric/2.1.sh scores [143] ⁽²⁴⁷⁾
 ! Day 2 Part 2 ⟶ Eric/2.2.sh scores [189] ⁽⁴³⁶⁾
@@ -97,6 +97,7 @@
 ! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
 ! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
 ! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
+! Day 4 Part 1 ⟶ Gerome/day4/day4_1.py scores [298] ⁽¹⁹³⁵⁾
 ! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [112] ⁽¹¹²⁾
 ! Day 1 Part 2 ⟶ Joe/1/golf/1_2.sc scores [118] ⁽²³⁰⁾
 ! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [158] ⁽³⁸⁸⁾
@@ -106,16 +107,16 @@
 
 
 @@ Scorecard Totals: @@
-! Ben scores a total [967]
+! Ben scores a total [1747]
 + Eric scores a total [815]
-! Gerome scores a total [1637]
+! Gerome scores a total [1935]
 ! Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
-! Ben ⟶ [967] ÷ [4] files ⟶ [241]
+! Ben ⟶ [1747] ÷ [4] files ⟶ [436]
 ! Eric ⟶ [815] ÷ [5] files ⟶ [163]
-! Gerome ⟶ [1637] ÷ [6] files ⟶ [272]
+! Gerome ⟶ [1935] ÷ [7] files ⟶ [276]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
 
@@ -123,7 +124,7 @@
 ! ./Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
 ! ./Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
 ! ./Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
-! ./Ben/Day4/solution.js scores [195] ⁽⁹⁶⁷⁾
+! ./Ben/Day4/solution.js scores [975] ⁽¹⁷⁴⁷⁾
 ! ./Eric/1.sh scores [127] ⁽¹²⁷⁾
 ! ./Eric/1-jest.sh scores [104] ⁽²³¹⁾
 ! ./Eric/2.1.sh scores [143] ⁽³⁷⁴⁾
@@ -136,6 +137,8 @@
 ! ./Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
 ! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
 ! ./Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
+! ./Gerome/day4/day4_1.py scores [298] ⁽¹⁹³⁵⁾
+! ./Gerome/day4/day4_2.py scores [1065] ⁽³⁰⁰⁰⁾
 ! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
 ! ./Joe/1/golf/1_1.sc scores [112] ⁽⁹¹³⁾
 ! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁰³¹⁾
@@ -151,5 +154,5 @@
 
 
 
-Updated 04/12/2020 10:55:25 Local time
+Updated 04/12/2020 19:48:35 Local time
 
