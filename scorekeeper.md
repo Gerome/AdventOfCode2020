@@ -181,6 +181,10 @@ player_totals=();
 
 # do the magic
 echo -e "\n\n@@ Global Breakdown: @@";
+echo -e "+ This covers all files, including those which do not";
+echo -e "+ appear on scorecards. This is for informational";
+echo -e "+ purposes only and is not regarded in any way as ";
+echo -e "+ counting towards scores or averages. ";
 recurse .
 echo -e "+ note: this ignores txt, md and extensionless files!";
 

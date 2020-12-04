@@ -124,6 +124,10 @@
 
 
 @@ Global Breakdown: @@
++ This covers all files, including those which do not
++ appear on scorecards. This is for informational
++ purposes only and is not regarded in any way as 
++ counting towards scores or averages. 
 ! ./Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
 ! ./Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
 ! ./Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
@@ -159,5 +163,5 @@
 
 
 
-Updated 04/12/2020 20:14:31 Local time
+Updated 04/12/2020 20:55:13 Local time
 
