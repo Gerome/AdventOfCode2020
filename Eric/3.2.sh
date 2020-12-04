@@ -13,16 +13,13 @@ t=0
 x=1
 for line in ${l[@]}
 {((y++))
-if((f&&y%2))
-then
-continue
-fi
+((f&&y%2))&&continue
 n=${#line}
 x=$[x+s]
 i=$[x%n]
 ((i--))
 [[ 
-  "${line:$i:1}" = "#"
+  ${line:$i:1} = "#"
    ]]&&((t++))
 }
 k[$j]=$t
