@@ -4,9 +4,11 @@ for p in "${z[@]}"
 { 
   IFS=' ' read -a y<<<${p//$'\n'/ }
   c=0
-  for x in "${y[@]}"
+  for x in ${y[@]}
   {
-    [[ "byriyreyrhgthcleclpid" = *"${x::3}"* ]]&&((c++))
+    [[
+      "byriyreyrhgthcleclpid" = *${x::3}*
+    ]]&&((c++))
   }
   ((c>6))&&((t++))
 }
