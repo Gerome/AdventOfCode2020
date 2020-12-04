@@ -63,6 +63,11 @@
 @@ Latecomer rules: @@
 + if you're late to the party, catch up quick as you can, ignore the last rule above till then.
  
+@@ Spectator rules: @@
++ if you want to join but don't fancy the competing then set your
++ .scorecard as "# Spectating with a cool drink" (without quotes) 
++ then just leave the rest blank unless you change your mind!
+ 
 @@ Today's playing conditions: @@
 ! - heavy snow
 ! - some polar bear sightings
@@ -168,5 +173,5 @@
 
 
 
-Updated 04/12/2020 21:15:16 Local time
+Updated 04/12/2020 21:23:06 Local time
 
