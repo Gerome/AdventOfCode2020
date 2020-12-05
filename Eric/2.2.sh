@@ -1,6 +1,6 @@
 # expecting 441
 IFS=$'\n' z=($(<i/2))
-for p in "${z[@]}"
+for p in ${z[@]}
 { 
   IFS=-
 n=($p)

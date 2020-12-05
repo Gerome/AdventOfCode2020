@@ -6,6 +6,14 @@
 # To run: bash scorekeeper.md
 # To run real mean: bash scorekeeper.md && git commit . -m "Score keeping." && git push
 #
+# How .scorecard works: 
+# - Player puts a .scorecard file in their directory
+# - Player lists filepaths to be scored relative to their Directory
+# - Format is.. [free text]: [filepath]
+#   eg.  Day One Part One: day-one/answer.ext
+# - An optional status comment can be set on the file by starting the first line with a hash (#)
+#   This optional status comment must be single line and only the first line. 
+#
 # What I do: scan the directories and append a scores table & breakdown to the bottom
 # Stuff to be aware of: 
 # - I overwrite the existing README.md
@@ -15,7 +23,9 @@
 #   because of this sometimes a score may be 1 or 2 out from what your text editor says
 #   I am correct.
 # 
-# To Test: uncomment the keeper checks at the end & compare with Keeper/scorekeeper.test
+# To Test: setup a dummy player dir Keeper/ and set PRODUCTION to a falsy value
+
+PRODUCTION=1
 
 
 tally() {
@@ -79,8 +89,7 @@ recurse() {
     player=$(echo -e "$i" | cut -d "/" -f2);
     player_index=$(ord $player);
 
-    # skip the Keeper, comment for debug
-    if [ "$player" == "Keeper" ]; then continue; fi;
+    if [ "$player" == "Keeper" ]&&((PRODUCTION)); then continue; fi;
 
     # its a dir
     if [ -d "$i" ];then
@@ -111,12 +120,27 @@ echo -e "\n\n@@ Scorecard Breakdown: @@";
 for d in */ ; do
   if [[ -d "$d" && ! -L "$d" ]]; then # its a normal dir
     player="$(basename "$d")";
+
+    if [ "$player" == "Keeper" ]&&((PRODUCTION)); then continue; fi;
+    
     player_index=$(ord $player);
     scorecard_path="${d}.scorecard";
+
     if [ -f "$scorecard_path" ]; then # .scorecard exists
 
+      echo "+ ${player}";
+
       IFS=$'\n' sc_lines=($(< $scorecard_path));
+      line_number=1;
       for l in ${sc_lines[@]}; do
+
+        # check for a file comment
+        if [ $line_number == 1 ] && [ "${l::1}" == "#" ]; 
+        then 
+          echo $l;
+          continue;
+        fi;
+
         IFS=: chunks=($l);
         file_name=$(trim ${chunks[1]});
         file_path="${d}${file_name}";
@@ -141,13 +165,11 @@ done
 echo -e "\n\n@@ Scorecard Totals: @@";
 for i in ${!players[@]};do
 
-  # skip the Keeper, comment for debug
-  if [ "${players[$i]}" == "Keeper" ]; then continue; fi;
+  if [ "${players[$i]}" == "Keeper" ]&&((PRODUCTION)); then continue; fi;
 
   symbol="+";
   for opp in ${!players[@]};do
-    # skip the Keeper, comment for debug
-    if [ "${players[$opp]}" == "Keeper" ]; then continue; fi;
+    if [ "${players[$opp]}" == "Keeper" ]&&((PRODUCTION)); then continue; fi;
     if (("${player_totals[$opp]}" < "${player_totals[$i]}")); then symbol="!"; fi;
   done;
 
@@ -158,13 +180,12 @@ done;
 # loop final scores
 echo -e "\n\n@@ Scorecard Averages: @@";
 for i in ${!players[@]};do
-  # skip the Keeper, comment for debug
-  if [ "${players[$i]}" == "Keeper" ]; then continue; fi;
+  if [ "${players[$i]}" == "Keeper" ]&&((PRODUCTION)); then continue; fi;
   player_avgs[$i]=$[player_totals[$i] / player_file_count[$i]];
 
   symbol="+";   
   for opp in ${!players[@]};do
-    if [ "${players[$opp]}" == "Keeper" ]; then continue; fi;
+    if [ "${players[$opp]}" == "Keeper" ]&&((PRODUCTION)); then continue; fi;
     if [[ "${player_avgs[$opp]}" < "${player_avgs[$i]}" ]]; then symbol="!"; fi;
   done;
 
@@ -179,6 +200,10 @@ player_totals=();
 
 # do the magic
 echo -e "\n\n@@ Global Breakdown: @@";
+echo -e "+ This covers all files, including those which do not";
+echo -e "+ appear on scorecards. This is for informational";
+echo -e "+ purposes only and is not regarded in any way as ";
+echo -e "+ counting towards scores or averages. ";
 recurse .
 echo -e "+ note: this ignores txt, md and extensionless files!";
 
