@@ -11,8 +11,7 @@ y=($(printf "%s\n" ${y[@]}|sort))
 for i in ${!y[@]}
 {
   q=${y[i++]}
-  n=${y[i]}
-  for((;q-n<-1;q++))
+  for((;y[i]-q>1;q++))
   { 
     echo $[q+1]
   }
