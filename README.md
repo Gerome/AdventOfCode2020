@@ -105,10 +105,10 @@
 -  Day 3 Part 2 ⟶ Eric/3.2.sh scores [243]     ⁽ᵃᵛᵍ ¹⁵⁶⁾
 -  Day 4 Part 1 ⟶ Eric/4.1.sh scores [185]     ⁽ᵃᵛᵍ ¹⁶¹⁾
 -  Day 4 Part 2 ⟶ Eric/4.2.sh scores [481]     ⁽ᵃᵛᵍ ²⁰⁷⁾
-+  Day 5 Part 1 ⟶ Eric/5.1.sh scores [111]     ⁽ᵃᵛᵍ ¹⁹⁵⁾
-+  Day 5 Part 2 ⟶ Eric/5.2.sh scores [189]     ⁽ᵃᵛᵍ ¹⁹⁴⁾
-+  Day 6 Part 1 ⟶ Eric/6.1.sh scores [155]     ⁽ᵃᵛᵍ ¹⁹⁰⁾
--  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁹²⁾
++  Day 5 Part 1 ⟶ Eric/5.1.sh scores [95]     ⁽ᵃᵛᵍ ¹⁹³⁾
++  Day 5 Part 2 ⟶ Eric/5.2.sh scores [173]     ⁽ᵃᵛᵍ ¹⁹⁰⁾
++  Day 6 Part 1 ⟶ Eric/6.1.sh scores [155]     ⁽ᵃᵛᵍ ¹⁸⁷⁾
+-  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁸⁹⁾
 
 ! Gerome
    Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161]     ⁽ᵃᵛᵍ ¹⁶¹⁾
@@ -135,14 +135,14 @@
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [1855]
-! Eric scores a total [2119]
+! Eric scores a total [2087]
 ! Gerome scores a total [4113]
 + Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
 ! Ben ⟶ [1855] ÷ [5] files ⟶ [371]
-! Eric ⟶ [2119] ÷ [11] files ⟶ [192]
+! Eric ⟶ [2087] ÷ [11] files ⟶ [189]
 ! Gerome ⟶ [4113] ÷ [12] files ⟶ [342]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
@@ -165,10 +165,10 @@
 ! ./Eric/3.2.sh scores [243] ⁽⁹⁰³⁾
 ! ./Eric/4.1.sh scores [185] ⁽¹⁰⁸⁸⁾
 ! ./Eric/4.2.sh scores [481] ⁽¹⁵⁶⁹⁾
-! ./Eric/5.1.sh scores [111] ⁽¹⁶⁸⁰⁾
-! ./Eric/5.2.sh scores [189] ⁽¹⁸⁶⁹⁾
-! ./Eric/6.1.sh scores [155] ⁽²⁰²⁴⁾
-! ./Eric/6.2.sh scores [215] ⁽²²³⁹⁾
+! ./Eric/5.1.sh scores [95] ⁽¹⁶⁶⁴⁾
+! ./Eric/5.2.sh scores [173] ⁽¹⁸³⁷⁾
+! ./Eric/6.1.sh scores [155] ⁽¹⁹⁹²⁾
+! ./Eric/6.2.sh scores [215] ⁽²²⁰⁷⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -196,5 +196,5 @@
 
 
 
-Updated 06/12/2020 14:47:34 Local time
+Updated 06/12/2020 15:37:01 Local time
 
