@@ -95,6 +95,7 @@
 +  Day 3 ⟶ Ben/Day3/solution.js scores [241]     ⁽ᵃᵛᵍ ²⁵⁷⁾
 -  Day 4 ⟶ Ben/Day4/solution.js scores [862]     ⁽ᵃᵛᵍ ⁴⁰⁸⁾
 +  Day 5 ⟶ Ben/Day5/solution.js scores [182]     ⁽ᵃᵛᵍ ³⁶³⁾
++  Day 6 ⟶ Ben/Day6/solution.js scores [282]     ⁽ᵃᵛᵍ ³⁴⁹⁾
 
 ! Eric
 # Golfing in Bash & snow boots
@@ -134,14 +135,14 @@
 
 
 @@ Scorecard Totals: @@
-! Ben scores a total [1816]
+! Ben scores a total [2098]
 ! Eric scores a total [2102]
 ! Gerome scores a total [4113]
 + Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
-! Ben ⟶ [1816] ÷ [5] files ⟶ [363]
+! Ben ⟶ [2098] ÷ [6] files ⟶ [349]
 ! Eric ⟶ [2102] ÷ [11] files ⟶ [191]
 ! Gerome ⟶ [4113] ÷ [12] files ⟶ [342]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
@@ -157,6 +158,7 @@
 ! ./Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
 ! ./Ben/Day4/solution.js scores [862] ⁽¹⁶³⁴⁾
 ! ./Ben/Day5/solution.js scores [182] ⁽¹⁸¹⁶⁾
+! ./Ben/Day6/solution.js scores [282] ⁽²⁰⁹⁸⁾
 ! ./Eric/1.sh scores [121] ⁽¹²¹⁾
 ! ./Eric/1-jest.sh scores [104] ⁽²²⁵⁾
 ! ./Eric/2.1.sh scores [141] ⁽³⁶⁶⁾
@@ -196,5 +198,5 @@
 
 
 
-Updated 06/12/2020 15:47:38 Local time
+Updated 06/12/2020 17:41:18 Local time
 
