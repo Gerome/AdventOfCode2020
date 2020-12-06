@@ -117,6 +117,7 @@ recurse() {
 
 # do the magic
 echo -e "\n\n@@ Scorecard Breakdown: @@";
+echo -e "# Colour indicates effect on running average score!"
 for d in */ ; do
   if [[ -d "$d" && ! -L "$d" ]]; then # its a normal dir
     player="$(basename "$d")";
@@ -128,7 +129,7 @@ for d in */ ; do
 
     if [ -f "$scorecard_path" ]; then # .scorecard exists
 
-      echo "+ ${player}";
+      echo -e "\n! ${player}";
 
       IFS=$'\n' sc_lines=($(< $scorecard_path));
       line_number=1;
@@ -151,7 +152,21 @@ for d in */ ; do
           ((player_file_count[$player_index]++));
           player_totals[$player_index]=$[player_totals[$player_index] + score];
           tiny_running_total=$(tiny ${player_totals[$player_index]});
-          echo -e "! ${chunks[0]} ⟶ ${file_path} scores [${score}] ⁽${tiny_running_total}⁾";
+          running_avg=$[player_totals[$player_index] / line_number];
+          if ((running_avg < player_running_avgs[$player_index])); then
+            symbol='+'
+          else
+            if [ $line_number == 1 ]; then
+              symbol=' '
+            else
+              symbol='-'
+            fi;
+          fi;
+          player_running_avgs[$player_index]=$running_avg
+          tiny_running_avg=$(tiny $running_avg)
+
+          echo -e "${symbol}  ${chunks[0]} ⟶ ${file_path} scores [${score}]     ⁽ᵃᵛᵍ ${tiny_running_avg}⁾";
+          ((++line_number))
         fi;
 
       done;
@@ -177,7 +192,7 @@ for i in ${!players[@]};do
 done;
 
 
-# loop final scores
+# loop final avgs
 echo -e "\n\n@@ Scorecard Averages: @@";
 for i in ${!players[@]};do
   if [ "${players[$i]}" == "Keeper" ]&&((PRODUCTION)); then continue; fi;

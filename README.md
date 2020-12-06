@@ -87,41 +87,46 @@
 
 
 @@ Scorecard Breakdown: @@
-+ Ben
-! Day 1 ⟶ Ben/Day1/solution.js scores [275] ⁽²⁷⁵⁾
-! Day 2 ⟶ Ben/Day2/solution.js scores [256] ⁽⁵³¹⁾
-! Day 3 ⟶ Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
-! Day 4 ⟶ Ben/Day4/solution.js scores [862] ⁽¹⁶³⁴⁾
-! Day 5 ⟶ Ben/Day5/solution.js scores [221] ⁽¹⁸⁵⁵⁾
-+ Eric
+# Colour indicates effect on running average score!
+
+! Ben
+   Day 1 ⟶ Ben/Day1/solution.js scores [275]     ⁽ᵃᵛᵍ ²⁷⁵⁾
++  Day 2 ⟶ Ben/Day2/solution.js scores [256]     ⁽ᵃᵛᵍ ²⁶⁵⁾
++  Day 3 ⟶ Ben/Day3/solution.js scores [241]     ⁽ᵃᵛᵍ ²⁵⁷⁾
+-  Day 4 ⟶ Ben/Day4/solution.js scores [862]     ⁽ᵃᵛᵍ ⁴⁰⁸⁾
++  Day 5 ⟶ Ben/Day5/solution.js scores [221]     ⁽ᵃᵛᵍ ³⁷¹⁾
+
+! Eric
 # Golfing in Bash & snow boots
-! Day 1 Part 2 ⟶ Eric/1-jest.sh scores [103] ⁽¹⁰³⁾
-! Day 2 Part 1 ⟶ Eric/2.1.sh scores [140] ⁽²⁴³⁾
-! Day 2 Part 2 ⟶ Eric/2.2.sh scores [181] ⁽⁴²⁴⁾
-! Day 3 Part 1 ⟶ Eric/3.1.sh scores [116] ⁽⁵⁴⁰⁾
-! Day 3 Part 2 ⟶ Eric/3.2.sh scores [243] ⁽⁷⁸³⁾
-! Day 4 Part 1 ⟶ Eric/4.1.sh scores [185] ⁽⁹⁶⁸⁾
-! Day 4 Part 2 ⟶ Eric/4.2.sh scores [481] ⁽¹⁴⁴⁹⁾
-! Day 5 Part 1 ⟶ Eric/5.1.sh scores [111] ⁽¹⁵⁶⁰⁾
-! Day 5 Part 2 ⟶ Eric/5.2.sh scores [189] ⁽¹⁷⁴⁹⁾
-! Day 6 Part 1 ⟶ Eric/6.1.sh scores [155] ⁽¹⁹⁰⁴⁾
-! Day 6 Part 2 ⟶ Eric/6.2.sh scores [215] ⁽²¹¹⁹⁾
-+ Gerome
-! Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
-! Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
-! Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
-! Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
-! Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
-! Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
-! Day 4 Part 1 ⟶ Gerome/day4/day4_1.py scores [298] ⁽¹⁹³⁵⁾
-! Day 4 Part 2 ⟶ Gerome/day4/day4_2.py scores [1065] ⁽³⁰⁰⁰⁾
-+ Joe
-! Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [112] ⁽¹¹²⁾
-! Day 1 Part 2 ⟶ Joe/1/golf/1_2.sc scores [118] ⁽²³⁰⁾
-! Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [158] ⁽³⁸⁸⁾
-! Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [162] ⁽⁵⁵⁰⁾
-! Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [90] ⁽⁶⁴⁰⁾
-! Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [220] ⁽⁸⁶⁰⁾
+   Day 1 Part 2 ⟶ Eric/1-jest.sh scores [103]     ⁽ᵃᵛᵍ ¹⁰³⁾
+-  Day 2 Part 1 ⟶ Eric/2.1.sh scores [140]     ⁽ᵃᵛᵍ ¹²¹⁾
+-  Day 2 Part 2 ⟶ Eric/2.2.sh scores [181]     ⁽ᵃᵛᵍ ¹⁴¹⁾
++  Day 3 Part 1 ⟶ Eric/3.1.sh scores [116]     ⁽ᵃᵛᵍ ¹³⁵⁾
+-  Day 3 Part 2 ⟶ Eric/3.2.sh scores [243]     ⁽ᵃᵛᵍ ¹⁵⁶⁾
+-  Day 4 Part 1 ⟶ Eric/4.1.sh scores [185]     ⁽ᵃᵛᵍ ¹⁶¹⁾
+-  Day 4 Part 2 ⟶ Eric/4.2.sh scores [481]     ⁽ᵃᵛᵍ ²⁰⁷⁾
++  Day 5 Part 1 ⟶ Eric/5.1.sh scores [111]     ⁽ᵃᵛᵍ ¹⁹⁵⁾
++  Day 5 Part 2 ⟶ Eric/5.2.sh scores [189]     ⁽ᵃᵛᵍ ¹⁹⁴⁾
++  Day 6 Part 1 ⟶ Eric/6.1.sh scores [155]     ⁽ᵃᵛᵍ ¹⁹⁰⁾
+-  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁹²⁾
+
+! Gerome
+   Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161]     ⁽ᵃᵛᵍ ¹⁶¹⁾
+-  Day 1 Part 2 ⟶ Gerome/day1/day1_2.py scores [179]     ⁽ᵃᵛᵍ ¹⁷⁰⁾
+-  Day 2 Part 1 ⟶ Gerome/day2/day2_1.py scores [383]     ⁽ᵃᵛᵍ ²⁴¹⁾
++  Day 2 Part 2 ⟶ Gerome/day2/day2_2.py scores [138]     ⁽ᵃᵛᵍ ²¹⁵⁾
+-  Day 3 Part 1 ⟶ Gerome/day3/day3_1.py scores [237]     ⁽ᵃᵛᵍ ²¹⁹⁾
+-  Day 3 Part 2 ⟶ Gerome/day3/day3_2.py scores [539]     ⁽ᵃᵛᵍ ²⁷²⁾
+-  Day 4 Part 1 ⟶ Gerome/day4/day4_1.py scores [298]     ⁽ᵃᵛᵍ ²⁷⁶⁾
+-  Day 4 Part 2 ⟶ Gerome/day4/day4_2.py scores [1065]     ⁽ᵃᵛᵍ ³⁷⁵⁾
+
+! Joe
+   Day 1 Part 1 ⟶ Joe/1/golf/1_1.sc scores [112]     ⁽ᵃᵛᵍ ¹¹²⁾
+-  Day 1 Part 2 ⟶ Joe/1/golf/1_2.sc scores [118]     ⁽ᵃᵛᵍ ¹¹⁵⁾
+-  Day 2 Part 1 ⟶ Joe/2/golf/2_1.sc scores [158]     ⁽ᵃᵛᵍ ¹²⁹⁾
+-  Day 2 Part 2 ⟶ Joe/2/golf/2_2.sc scores [162]     ⁽ᵃᵛᵍ ¹³⁷⁾
++  Day 3 Part 1 ⟶ Joe/3/golf/3_1_boring.sc scores [90]     ⁽ᵃᵛᵍ ¹²⁸⁾
+-  Day 3 Part 2 ⟶ Joe/3/golf/3_2_boring.sc scores [220]     ⁽ᵃᵛᵍ ¹⁴³⁾
 
 
 @@ Scorecard Totals: @@
@@ -187,5 +192,5 @@
 
 
 
-Updated 06/12/2020 14:04:38 Local time
+Updated 06/12/2020 14:39:39 Local time
 
