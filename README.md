@@ -95,21 +95,23 @@
 +  Day 3 ⟶ Ben/Day3/solution.js scores [241]     ⁽ᵃᵛᵍ ²⁵⁷⁾
 -  Day 4 ⟶ Ben/Day4/solution.js scores [862]     ⁽ᵃᵛᵍ ⁴⁰⁸⁾
 +  Day 5 ⟶ Ben/Day5/solution.js scores [182]     ⁽ᵃᵛᵍ ³⁶³⁾
-+  Day 6 ⟶ Ben/Day6/solution.js scores [282]     ⁽ᵃᵛᵍ ³⁴⁹⁾
++  Day 6 ⟶ Ben/Day6/solution.js scores [279]     ⁽ᵃᵛᵍ ³⁴⁹⁾
 
 ! Eric
 # Golfing in Bash & snow boots
-   Day 1 Part 2 ⟶ Eric/1-jest.sh scores [104]     ⁽ᵃᵛᵍ ¹⁰⁴⁾
--  Day 2 Part 1 ⟶ Eric/2.1.sh scores [141]     ⁽ᵃᵛᵍ ¹²²⁾
--  Day 2 Part 2 ⟶ Eric/2.2.sh scores [185]     ⁽ᵃᵛᵍ ¹⁴³⁾
-+  Day 3 Part 1 ⟶ Eric/3.1.sh scores [117]     ⁽ᵃᵛᵍ ¹³⁶⁾
--  Day 3 Part 2 ⟶ Eric/3.2.sh scores [245]     ⁽ᵃᵛᵍ ¹⁵⁸⁾
--  Day 4 Part 1 ⟶ Eric/4.1.sh scores [186]     ⁽ᵃᵛᵍ ¹⁶³⁾
--  Day 4 Part 2 ⟶ Eric/4.2.sh scores [482]     ⁽ᵃᵛᵍ ²⁰⁸⁾
-+  Day 5 Part 1 ⟶ Eric/5.1.sh scores [96]     ⁽ᵃᵛᵍ ¹⁹⁴⁾
-+  Day 5 Part 2 ⟶ Eric/5.2.sh scores [175]     ⁽ᵃᵛᵍ ¹⁹²⁾
-+  Day 6 Part 1 ⟶ Eric/6.1.sh scores [156]     ⁽ᵃᵛᵍ ¹⁸⁸⁾
--  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁹¹⁾
+   Day 1 Part 2 ⟶ Eric/1-jest.sh scores [103]     ⁽ᵃᵛᵍ ¹⁰³⁾
+-  Day 2 Part 1 ⟶ Eric/2.1.sh scores [140]     ⁽ᵃᵛᵍ ¹²¹⁾
+-  Day 2 Part 2 ⟶ Eric/2.2.sh scores [181]     ⁽ᵃᵛᵍ ¹⁴¹⁾
++  Day 3 Part 1 ⟶ Eric/3.1.sh scores [116]     ⁽ᵃᵛᵍ ¹³⁵⁾
+-  Day 3 Part 2 ⟶ Eric/3.2.sh scores [243]     ⁽ᵃᵛᵍ ¹⁵⁶⁾
+-  Day 4 Part 1 ⟶ Eric/4.1.sh scores [183]     ⁽ᵃᵛᵍ ¹⁶¹⁾
+-  Day 4 Part 2 ⟶ Eric/4.2.sh scores [461]     ⁽ᵃᵛᵍ ²⁰³⁾
++  Day 5 Part 1 ⟶ Eric/5.1.sh scores [95]     ⁽ᵃᵛᵍ ¹⁹⁰⁾
++  Day 5 Part 2 ⟶ Eric/5.2.sh scores [173]     ⁽ᵃᵛᵍ ¹⁸⁸⁾
++  Day 6 Part 1 ⟶ Eric/6.1.sh scores [155]     ⁽ᵃᵛᵍ ¹⁸⁵⁾
+-  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁸⁷⁾
+-  Day 7 Part 1 ⟶ Eric/7.1.sh scores [199]     ⁽ᵃᵛᵍ ¹⁸⁸⁾
+-  Day 7 Part 2 ⟶ Eric/7.2.sh scores [228]     ⁽ᵃᵛᵍ ¹⁹¹⁾
 
 ! Gerome
    Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161]     ⁽ᵃᵛᵍ ¹⁶¹⁾
@@ -135,15 +137,15 @@
 
 
 @@ Scorecard Totals: @@
-! Ben scores a total [2098]
-! Eric scores a total [2102]
+! Ben scores a total [2095]
+! Eric scores a total [2492]
 ! Gerome scores a total [4113]
 + Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
-! Ben ⟶ [2098] ÷ [6] files ⟶ [349]
-! Eric ⟶ [2102] ÷ [11] files ⟶ [191]
+! Ben ⟶ [2095] ÷ [6] files ⟶ [349]
+! Eric ⟶ [2492] ÷ [13] files ⟶ [191]
 ! Gerome ⟶ [4113] ÷ [12] files ⟶ [342]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
@@ -158,19 +160,21 @@
 ! ./Ben/Day3/solution.js scores [241] ⁽⁷⁷²⁾
 ! ./Ben/Day4/solution.js scores [862] ⁽¹⁶³⁴⁾
 ! ./Ben/Day5/solution.js scores [182] ⁽¹⁸¹⁶⁾
-! ./Ben/Day6/solution.js scores [282] ⁽²⁰⁹⁸⁾
-! ./Eric/1.sh scores [121] ⁽¹²¹⁾
-! ./Eric/1-jest.sh scores [104] ⁽²²⁵⁾
-! ./Eric/2.1.sh scores [141] ⁽³⁶⁶⁾
-! ./Eric/2.2.sh scores [185] ⁽⁵⁵¹⁾
-! ./Eric/3.1.sh scores [117] ⁽⁶⁶⁸⁾
-! ./Eric/3.2.sh scores [245] ⁽⁹¹³⁾
-! ./Eric/4.1.sh scores [186] ⁽¹⁰⁹⁹⁾
-! ./Eric/4.2.sh scores [482] ⁽¹⁵⁸¹⁾
-! ./Eric/5.1.sh scores [96] ⁽¹⁶⁷⁷⁾
-! ./Eric/5.2.sh scores [175] ⁽¹⁸⁵²⁾
-! ./Eric/6.1.sh scores [156] ⁽²⁰⁰⁸⁾
-! ./Eric/6.2.sh scores [215] ⁽²²²³⁾
+! ./Ben/Day6/solution.js scores [279] ⁽²⁰⁹⁵⁾
+! ./Eric/1-jest.sh scores [103] ⁽¹⁰³⁾
+! ./Eric/1.sh scores [113] ⁽²¹⁶⁾
+! ./Eric/2.1.sh scores [140] ⁽³⁵⁶⁾
+! ./Eric/2.2.sh scores [181] ⁽⁵³⁷⁾
+! ./Eric/3.1.sh scores [116] ⁽⁶⁵³⁾
+! ./Eric/3.2.sh scores [243] ⁽⁸⁹⁶⁾
+! ./Eric/4.1.sh scores [183] ⁽¹⁰⁷⁹⁾
+! ./Eric/4.2.sh scores [461] ⁽¹⁵⁴⁰⁾
+! ./Eric/5.1.sh scores [95] ⁽¹⁶³⁵⁾
+! ./Eric/5.2.sh scores [173] ⁽¹⁸⁰⁸⁾
+! ./Eric/6.1.sh scores [155] ⁽¹⁹⁶³⁾
+! ./Eric/6.2.sh scores [215] ⁽²¹⁷⁸⁾
+! ./Eric/7.1.sh scores [199] ⁽²³⁷⁷⁾
+! ./Eric/7.2.sh scores [228] ⁽²⁶⁰⁵⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -198,5 +202,5 @@
 
 
 
-Updated 06/12/2020 17:41:18 Local time
+Updated 07/12/2020 21:29:07 Local time
 
