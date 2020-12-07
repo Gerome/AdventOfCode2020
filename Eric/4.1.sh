@@ -7,7 +7,7 @@ for p in "${z[@]}"
   for x in ${y[@]}
   {
     [[
-      "byriyreyrhgthcleclpid" = *${x::3}*
+      byriyreyrhgthcleclpid = *${x::3}*
     ]]&&((c++))
   }
   ((c>6))&&((t++))
