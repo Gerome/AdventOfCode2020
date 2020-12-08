@@ -112,6 +112,7 @@
 -  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁸⁷⁾
 -  Day 7 Part 1 ⟶ Eric/7.1.sh scores [199]     ⁽ᵃᵛᵍ ¹⁸⁸⁾
 -  Day 7 Part 2 ⟶ Eric/7.2.sh scores [228]     ⁽ᵃᵛᵍ ¹⁹¹⁾
++  Day 8 Part 2 ⟶ Eric/8.1.sh scores [156]     ⁽ᵃᵛᵍ ¹⁸⁹⁾
 
 ! Gerome
    Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161]     ⁽ᵃᵛᵍ ¹⁶¹⁾
@@ -138,14 +139,14 @@
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [2095]
-! Eric scores a total [2492]
+! Eric scores a total [2648]
 ! Gerome scores a total [4113]
 + Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
 ! Ben ⟶ [2095] ÷ [6] files ⟶ [349]
-! Eric ⟶ [2492] ÷ [13] files ⟶ [191]
+! Eric ⟶ [2648] ÷ [14] files ⟶ [189]
 ! Gerome ⟶ [4113] ÷ [12] files ⟶ [342]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
@@ -175,6 +176,8 @@
 ! ./Eric/6.2.sh scores [215] ⁽²¹⁷⁸⁾
 ! ./Eric/7.1.sh scores [199] ⁽²³⁷⁷⁾
 ! ./Eric/7.2.sh scores [228] ⁽²⁶⁰⁵⁾
+! ./Eric/8.1.sh scores [156] ⁽²⁷⁶¹⁾
+! ./Eric/8.2.sh scores [0] ⁽²⁷⁶¹⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -187,6 +190,9 @@
 ! ./Gerome/day5/day5_2.py scores [442] ⁽³⁷⁸⁹⁾
 ! ./Gerome/day6/day6_1.py scores [134] ⁽³⁹²³⁾
 ! ./Gerome/day6/day6_2.py scores [190] ⁽⁴¹¹³⁾
+! ./Gerome/day7/day7_1.py scores [737] ⁽⁴⁸⁵⁰⁾
+! ./Gerome/day8/day8_1.py scores [406] ⁽⁵²⁵⁶⁾
+! ./Gerome/day8/day8_2.py scores [1051] ⁽⁶³⁰⁷⁾
 ! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
 ! ./Joe/1/golf/1_1.sc scores [112] ⁽⁹¹³⁾
 ! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁰³¹⁾
@@ -202,5 +208,5 @@
 
 
 
-Updated 07/12/2020 21:29:07 Local time
+Updated 08/12/2020 22:58:10 Local time
 
