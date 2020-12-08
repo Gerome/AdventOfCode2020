@@ -1,28 +1,18 @@
 # expecting 1797
-rs=()
-t=0
 IFS=$'\n' l=($(<i/8))
-
-line(){
-  ((rs[$1]++ < 1))&&{
-    
+f(){
+  ((q[$1]++<1))&&{
     x=${l[$1]}
     o=${x::3}
-    s=${x:4:1}
-    a=${x:5}
-
+    a=${x:4}
     case $o in 
-    acc) eval "t=\$[$t ${s} $a]";;
-    jmp) eval "n=\$[$1 ${s} $a]"
-    line $n
-    return 0;;
+    acc)eval "t=\$[$t$a]";;
+    jmp)eval "n=\$[$1$a]"
+    f $n
+    return
     esac
-    ((next < ${#l[@]}))&&{
-      next=$[$1+1]
-      line $next
-    }
+    f $[$1+1]
   }
 }
-
-line 0
+f 0
 echo $t
