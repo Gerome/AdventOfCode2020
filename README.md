@@ -112,7 +112,9 @@
 -  Day 6 Part 2 ⟶ Eric/6.2.sh scores [215]     ⁽ᵃᵛᵍ ¹⁸⁷⁾
 -  Day 7 Part 1 ⟶ Eric/7.1.sh scores [199]     ⁽ᵃᵛᵍ ¹⁸⁸⁾
 -  Day 7 Part 2 ⟶ Eric/7.2.sh scores [228]     ⁽ᵃᵛᵍ ¹⁹¹⁾
-+  Day 8 Part 2 ⟶ Eric/8.1.sh scores [156]     ⁽ᵃᵛᵍ ¹⁸⁹⁾
++  Day 8 Part 1 ⟶ Eric/8.1.sh scores [156]     ⁽ᵃᵛᵍ ¹⁸⁹⁾
+-  Day 12 Part 1 ⟶ Eric/12.1.sh scores [312]     ⁽ᵃᵛᵍ ¹⁹⁷⁾
+-  Day 12 Part 2 ⟶ Eric/12.2.sh scores [343]     ⁽ᵃᵛᵍ ²⁰⁶⁾
 
 ! Gerome
    Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161]     ⁽ᵃᵛᵍ ¹⁶¹⁾
@@ -139,14 +141,14 @@
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [2095]
-! Eric scores a total [2648]
+! Eric scores a total [3303]
 ! Gerome scores a total [4113]
 + Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
 ! Ben ⟶ [2095] ÷ [6] files ⟶ [349]
-! Eric ⟶ [2648] ÷ [14] files ⟶ [189]
+! Eric ⟶ [3303] ÷ [16] files ⟶ [206]
 ! Gerome ⟶ [4113] ÷ [12] files ⟶ [342]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
@@ -164,20 +166,22 @@
 ! ./Ben/Day6/solution.js scores [279] ⁽²⁰⁹⁵⁾
 ! ./Eric/1-jest.sh scores [103] ⁽¹⁰³⁾
 ! ./Eric/1.sh scores [113] ⁽²¹⁶⁾
-! ./Eric/2.1.sh scores [140] ⁽³⁵⁶⁾
-! ./Eric/2.2.sh scores [181] ⁽⁵³⁷⁾
-! ./Eric/3.1.sh scores [116] ⁽⁶⁵³⁾
-! ./Eric/3.2.sh scores [243] ⁽⁸⁹⁶⁾
-! ./Eric/4.1.sh scores [183] ⁽¹⁰⁷⁹⁾
-! ./Eric/4.2.sh scores [461] ⁽¹⁵⁴⁰⁾
-! ./Eric/5.1.sh scores [95] ⁽¹⁶³⁵⁾
-! ./Eric/5.2.sh scores [173] ⁽¹⁸⁰⁸⁾
-! ./Eric/6.1.sh scores [155] ⁽¹⁹⁶³⁾
-! ./Eric/6.2.sh scores [215] ⁽²¹⁷⁸⁾
-! ./Eric/7.1.sh scores [199] ⁽²³⁷⁷⁾
-! ./Eric/7.2.sh scores [228] ⁽²⁶⁰⁵⁾
-! ./Eric/8.1.sh scores [156] ⁽²⁷⁶¹⁾
-! ./Eric/8.2.sh scores [0] ⁽²⁷⁶¹⁾
+! ./Eric/12.1.sh scores [312] ⁽⁵²⁸⁾
+! ./Eric/12.2.sh scores [343] ⁽⁸⁷¹⁾
+! ./Eric/2.1.sh scores [140] ⁽¹⁰¹¹⁾
+! ./Eric/2.2.sh scores [181] ⁽¹¹⁹²⁾
+! ./Eric/3.1.sh scores [116] ⁽¹³⁰⁸⁾
+! ./Eric/3.2.sh scores [243] ⁽¹⁵⁵¹⁾
+! ./Eric/4.1.sh scores [183] ⁽¹⁷³⁴⁾
+! ./Eric/4.2.sh scores [461] ⁽²¹⁹⁵⁾
+! ./Eric/5.1.sh scores [95] ⁽²²⁹⁰⁾
+! ./Eric/5.2.sh scores [173] ⁽²⁴⁶³⁾
+! ./Eric/6.1.sh scores [155] ⁽²⁶¹⁸⁾
+! ./Eric/6.2.sh scores [215] ⁽²⁸³³⁾
+! ./Eric/7.1.sh scores [199] ⁽³⁰³²⁾
+! ./Eric/7.2.sh scores [228] ⁽³²⁶⁰⁾
+! ./Eric/8.1.sh scores [156] ⁽³⁴¹⁶⁾
+! ./Eric/8.2.sh scores [0] ⁽³⁴¹⁶⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
 ! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
@@ -208,5 +212,5 @@
 
 
 
-Updated 08/12/2020 22:58:10 Local time
+Updated 12/12/2020 17:32:29 Local time
 
