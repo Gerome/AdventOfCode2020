@@ -1,4 +1,5 @@
 # expecting 39518
+# could be better
 IFS=$'\n' l=($(<i/12))
 x=10
 y=1

@@ -1,4 +1,5 @@
 # expecting 364
+# could be better
 IFS=$'\n' l=($(<i/12))
 d=E
 
