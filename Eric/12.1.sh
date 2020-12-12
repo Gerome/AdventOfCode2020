@@ -1,62 +1,49 @@
 # expecting 364
 IFS=$'\n' l=($(<i/12))
-e=0
-n=0
-angle=0
-curdir=E
-curp=0
+d=E
 
-curptodir(){
-  case "$curp" in
-    -1) curdir=S;;
-    -2) curdir=W;;
-    -3) curdir=N;;
-    0) curdir=E;;
-    1) curdir=N;;
-    2) curdir=W;;
-    3) curdir=S;;
+q(){
+  case $u in
+    -1)d=S;;
+    -2)d=W;;
+    -3)d=N;;
+    0)d=E;;
+    1)d=N;;
+    2)d=W;;
+    3)d=S
   esac
 }
 
-calc(){
-  case "$1" in
-  N) echo "moves north $2"
-  n=$[n + $2];;
-  E) echo "moves east $2"
-  e=$[e + $2];;
-  S) echo "moves south $2"
-  n=$[n - $2];;
-  W) echo "moves west $2"
-  e=$[e - $2];;
-  R) echo "turns right $2"
-  angle=$[angle - $2]
-  curp=$[(angle/90) % 4]
-  curptodir
-  echo "Now at $angle degrees, curp at $curp, dir at $curdir"
+c(){
+  case $1 in
+  N)
+  n=$[n+$2];;
+  E)
+  e=$[e+$2];;
+  S)
+  n=$[n-$2];;
+  W)
+  e=$[e-$2];;
+  R)
+  a=$[a-$2]
+  u=$[(a/90)%4]
+  q
   ;;
-  L) echo "turns left $2"
-  angle=$[angle + $2]
-  curp=$[(angle/90) % 4]
-  curptodir
-  echo "Now at $angle degrees, curp at $curp, dir at $curdir"
+  L)
+  a=$[a+$2]
+  u=$[(a/90)%4]
+  q
   ;;
   esac
 }
 
-for p in ${l[@]};
+for p in ${l[@]}
 do
-  echo $p
-  direction=${p::1}
-  units=${p:1}
-
-  case $direction in
-  F) calc $curdir $units;;
-  *) calc $direction $units
+  o=${p::1}
+  b=${p:1}
+  case $o in
+  F)c $d $b;;
+  *)c $o $b
   esac
-
 done
-
-abse=${e#-}
-absn=${n#-}
-sum=$[abse + absn]
-echo "$abse + $absn = $sum"
+echo $[${e#-}+${n#-}]
