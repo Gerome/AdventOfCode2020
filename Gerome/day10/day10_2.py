@@ -1,3 +1,4 @@
+import math
 
 input_lines = open("input.txt", "r").read()
 
@@ -6,20 +7,25 @@ split_lines = [int(i) for i in split_lines if i]
 split_lines = sorted(split_lines)
 
 
-def do_thing(current_number, remaining_values, total_count):
+def do_thing(current_number, remaining_values):
+
     numbers_within_limit = [value for value in remaining_values if current_number < value <= current_number + 3]
 
-    for value in numbers_within_limit:
-        list_copy = remaining_values[remaining_values.index(value)+1:]
+    values_list = []
 
-        if not list_copy:
-            total_count += 1
-            return total_count
+    while numbers_within_limit[-1] != remaining_values[-1]:
+        list_length = len(numbers_within_limit)
 
-        total_count = do_thing(value, list_copy, total_count)
+        if list_length > 1:
+            values_list.append(2**(list_length-2))
 
-    return total_count
+        current_number = numbers_within_limit[-1]
+        remaining_values = remaining_values[remaining_values.index(current_number) + 1:]
+        numbers_within_limit = [value for value in remaining_values if current_number < value <= current_number + 3]
 
+    return values_list
 
-
-do_thing(0, split_lines, 0)
+print(split_lines)
+result = do_thing(0, split_lines)
+print(result)
+print(math.prod(result))
