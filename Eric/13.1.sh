@@ -1,21 +1,19 @@
 # expecting 3035
 IFS=$'\n' l=($(<i/13))
 a=${l[0]}
-IFS=, buses=(${l[@]:1})
-
-for bus in ${buses[@]}
+IFS=, b=(${l[@]:1})
+for x in ${b[@]}
 do
-  time=0
-  [[ $bus != "x" ]]&&{
-    for ((;time<a;))
+  t=0
+  [[ $x != "x" ]]&&{
+    for((;t<a;))
     {
-      time=$[time+bus]
+      t=$[t+x]
     }
-    ((low<a))||((time<low))&&{
-      low=$time
-      cbus=$bus
+    ((w<a))||((t<w))&&{
+      w=$t
+      c=$x
     }
   }
 done
-
-echo $[(low-a)*cbus]
+echo $[(w-a)*c]
