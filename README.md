@@ -98,7 +98,7 @@
 +  Day 6 ⟶ Ben/Day6/solution.js scores [279]     ⁽ᵃᵛᵍ ³⁴⁹⁾
 
 ! Eric
-# Golfing in Bash & snow boots
+# Golfing in Bash & snow boots. Falling down a bunch
    Day 1 Part 2 ⟶ Eric/1-jest.sh scores [103]     ⁽ᵃᵛᵍ ¹⁰³⁾
 -  Day 2 Part 1 ⟶ Eric/2.1.sh scores [140]     ⁽ᵃᵛᵍ ¹²¹⁾
 -  Day 2 Part 2 ⟶ Eric/2.2.sh scores [181]     ⁽ᵃᵛᵍ ¹⁴¹⁾
@@ -115,6 +115,7 @@
 +  Day 8 Part 1 ⟶ Eric/8.1.sh scores [156]     ⁽ᵃᵛᵍ ¹⁸⁹⁾
 -  Day 12 Part 1 ⟶ Eric/12.1.sh scores [312]     ⁽ᵃᵛᵍ ¹⁹⁷⁾
 -  Day 12 Part 2 ⟶ Eric/12.2.sh scores [343]     ⁽ᵃᵛᵍ ²⁰⁶⁾
++  Day 13 Part 1 ⟶ Eric/13.1.sh scores [158]     ⁽ᵃᵛᵍ ²⁰³⁾
 
 ! Gerome
    Day 1 Part 1 ⟶ Gerome/day1/day1_1.py scores [161]     ⁽ᵃᵛᵍ ¹⁶¹⁾
@@ -141,14 +142,14 @@
 
 @@ Scorecard Totals: @@
 ! Ben scores a total [2095]
-! Eric scores a total [3303]
+! Eric scores a total [3461]
 ! Gerome scores a total [4113]
 + Joe scores a total [860]
 
 
 @@ Scorecard Averages: @@
 ! Ben ⟶ [2095] ÷ [6] files ⟶ [349]
-! Eric ⟶ [3303] ÷ [16] files ⟶ [206]
+! Eric ⟶ [3461] ÷ [17] files ⟶ [203]
 ! Gerome ⟶ [4113] ÷ [12] files ⟶ [342]
 + Joe ⟶ [860] ÷ [6] files ⟶ [143]
 
@@ -164,39 +165,47 @@
 ! ./Ben/Day4/solution.js scores [862] ⁽¹⁶³⁴⁾
 ! ./Ben/Day5/solution.js scores [182] ⁽¹⁸¹⁶⁾
 ! ./Ben/Day6/solution.js scores [279] ⁽²⁰⁹⁵⁾
+! ./Ben/Day8/solution.js scores [426] ⁽²⁵²¹⁾
 ! ./Eric/1-jest.sh scores [103] ⁽¹⁰³⁾
 ! ./Eric/1.sh scores [113] ⁽²¹⁶⁾
 ! ./Eric/12.1.sh scores [312] ⁽⁵²⁸⁾
 ! ./Eric/12.2.sh scores [343] ⁽⁸⁷¹⁾
-! ./Eric/2.1.sh scores [140] ⁽¹⁰¹¹⁾
-! ./Eric/2.2.sh scores [181] ⁽¹¹⁹²⁾
-! ./Eric/3.1.sh scores [116] ⁽¹³⁰⁸⁾
-! ./Eric/3.2.sh scores [243] ⁽¹⁵⁵¹⁾
-! ./Eric/4.1.sh scores [183] ⁽¹⁷³⁴⁾
-! ./Eric/4.2.sh scores [461] ⁽²¹⁹⁵⁾
-! ./Eric/5.1.sh scores [95] ⁽²²⁹⁰⁾
-! ./Eric/5.2.sh scores [173] ⁽²⁴⁶³⁾
-! ./Eric/6.1.sh scores [155] ⁽²⁶¹⁸⁾
-! ./Eric/6.2.sh scores [215] ⁽²⁸³³⁾
-! ./Eric/7.1.sh scores [199] ⁽³⁰³²⁾
-! ./Eric/7.2.sh scores [228] ⁽³²⁶⁰⁾
-! ./Eric/8.1.sh scores [156] ⁽³⁴¹⁶⁾
-! ./Eric/8.2.sh scores [0] ⁽³⁴¹⁶⁾
+! ./Eric/13.1.sh scores [158] ⁽¹⁰²⁹⁾
+! ./Eric/13.2.sh scores [0] ⁽¹⁰²⁹⁾
+! ./Eric/2.1.sh scores [140] ⁽¹¹⁶⁹⁾
+! ./Eric/2.2.sh scores [181] ⁽¹³⁵⁰⁾
+! ./Eric/3.1.sh scores [116] ⁽¹⁴⁶⁶⁾
+! ./Eric/3.2.sh scores [243] ⁽¹⁷⁰⁹⁾
+! ./Eric/4.1.sh scores [183] ⁽¹⁸⁹²⁾
+! ./Eric/4.2.sh scores [461] ⁽²³⁵³⁾
+! ./Eric/5.1.sh scores [95] ⁽²⁴⁴⁸⁾
+! ./Eric/5.2.sh scores [173] ⁽²⁶²¹⁾
+! ./Eric/6.1.sh scores [155] ⁽²⁷⁷⁶⁾
+! ./Eric/6.2.sh scores [215] ⁽²⁹⁹¹⁾
+! ./Eric/7.1.sh scores [199] ⁽³¹⁹⁰⁾
+! ./Eric/7.2.sh scores [228] ⁽³⁴¹⁸⁾
+! ./Eric/8.1.sh scores [156] ⁽³⁵⁷⁴⁾
+! ./Eric/8.2.sh scores [0] ⁽³⁵⁷⁴⁾
 ! ./Gerome/day1/day1_1.py scores [161] ⁽¹⁶¹⁾
 ! ./Gerome/day1/day1_2.py scores [179] ⁽³⁴⁰⁾
-! ./Gerome/day2/day2_1.py scores [383] ⁽⁷²³⁾
-! ./Gerome/day2/day2_2.py scores [138] ⁽⁸⁶¹⁾
-! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁰⁹⁸⁾
-! ./Gerome/day3/day3_2.py scores [539] ⁽¹⁶³⁷⁾
-! ./Gerome/day4/day4_1.py scores [298] ⁽¹⁹³⁵⁾
-! ./Gerome/day4/day4_2.py scores [1065] ⁽³⁰⁰⁰⁾
-! ./Gerome/day5/day5_1.py scores [347] ⁽³³⁴⁷⁾
-! ./Gerome/day5/day5_2.py scores [442] ⁽³⁷⁸⁹⁾
-! ./Gerome/day6/day6_1.py scores [134] ⁽³⁹²³⁾
-! ./Gerome/day6/day6_2.py scores [190] ⁽⁴¹¹³⁾
-! ./Gerome/day7/day7_1.py scores [737] ⁽⁴⁸⁵⁰⁾
-! ./Gerome/day8/day8_1.py scores [406] ⁽⁵²⁵⁶⁾
-! ./Gerome/day8/day8_2.py scores [1051] ⁽⁶³⁰⁷⁾
+! ./Gerome/day10/day10_1.py scores [323] ⁽⁶⁶³⁾
+! ./Gerome/day10/day10_2.py scores [571] ⁽¹²³⁴⁾
+! ./Gerome/day11/day11_1.py scores [0] ⁽¹²³⁴⁾
+! ./Gerome/day2/day2_1.py scores [383] ⁽¹⁶¹⁷⁾
+! ./Gerome/day2/day2_2.py scores [138] ⁽¹⁷⁵⁵⁾
+! ./Gerome/day3/day3_1.py scores [237] ⁽¹⁹⁹²⁾
+! ./Gerome/day3/day3_2.py scores [539] ⁽²⁵³¹⁾
+! ./Gerome/day4/day4_1.py scores [298] ⁽²⁸²⁹⁾
+! ./Gerome/day4/day4_2.py scores [1065] ⁽³⁸⁹⁴⁾
+! ./Gerome/day5/day5_1.py scores [347] ⁽⁴²⁴¹⁾
+! ./Gerome/day5/day5_2.py scores [442] ⁽⁴⁶⁸³⁾
+! ./Gerome/day6/day6_1.py scores [134] ⁽⁴⁸¹⁷⁾
+! ./Gerome/day6/day6_2.py scores [190] ⁽⁵⁰⁰⁷⁾
+! ./Gerome/day7/day7_1.py scores [737] ⁽⁵⁷⁴⁴⁾
+! ./Gerome/day8/day8_1.py scores [406] ⁽⁶¹⁵⁰⁾
+! ./Gerome/day8/day8_2.py scores [1051] ⁽⁷²⁰¹⁾
+! ./Gerome/day9/day9_1.py scores [356] ⁽⁷⁵⁵⁷⁾
+! ./Gerome/day9/day9_2.py scores [399] ⁽⁷⁹⁵⁶⁾
 ! ./Joe/1/1.sc scores [801] ⁽⁸⁰¹⁾
 ! ./Joe/1/golf/1_1.sc scores [112] ⁽⁹¹³⁾
 ! ./Joe/1/golf/1_2.sc scores [118] ⁽¹⁰³¹⁾
@@ -212,5 +221,5 @@
 
 
 
-Updated 12/12/2020 17:32:29 Local time
+Updated 13/12/2020 15:42:40 Local time
 
